@@ -16,11 +16,11 @@
 
 
 - [更改源](#更改源)
-- [Terminal & Bash](#Terminal & Bash)
+- [Terminal & Bash](#Terminal&Bash)
 - [系统配置文件](#系统配置文件)
 - [环境变量](#环境变量)
 - [Terminal Multiplexers: Screen, Tmux](#Terminal Multiplexers: Screen, Tmux)
-- [SSH & MOSH](#SSH & MOSH)
+- [SSH & MOSH](#SSH&MOSH)
 - [GIT](#GIT)
 - [命令行工具](#命令行工具)
 - [查找搜索](#查找搜索)
@@ -28,7 +28,7 @@
 - [版本控制及包管理](#版本控制及包管理)
 - [数据科学常用包](#数据科学常用包)
 - [数据存储及快速查询](#数据存储及快速查询)
-- [CUDA & CUDNN](#CUDA & CUDNN)
+- [CUDA & CUDNN](#CUDA&CUDNN)
 - [IDE](#IDE)
 - [代码检查](#代码检查)
 - [代码测试](#代码测试)
