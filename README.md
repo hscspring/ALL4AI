@@ -153,7 +153,7 @@ AIX|	`LIBPATH`
 
 
 
-## TerminalMultiplexers: Screen&Tmux
+## TerminalMultiplexers:Screen&Tmux
 
 远程会话窗口管理器，就是让你的远程连接（SSH）不中断，退出后下次登录时程序依然在运行。具体可参考：
 
