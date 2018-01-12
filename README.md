@@ -290,9 +290,9 @@ AIX|	`LIBPATH`
 
 
 - TAR,GZIP, BZIP2, XZ 对比
-  - 需要在記憶體很小的機器（如小於 128 MB）上解壓縮時，則選擇 gzip 格式。
-  - 需要在很簡單、沒有什麼工具可用的機器上解壓縮時，則選擇 gzip格式。
-  - 需要節省網路頻寬、縮短下載所需要的時間時，則選擇 xz 格式。
+  - 需要在内存很小的机器（如小于 128 MB）上解压缩时，选择 gzip 格式。
+  - 需要在很简单、沒有什么工具可用的机器上解压缩时，选择 gzip 格式。
+  - 需要节省带宽、缩短下载所需时间时，选择 xz 格式。
   - 推荐用 gz 压缩：  
     - `tar zcvf test.tar test` 仅打包，不压缩
     - `tar zcvf test.tar.gz test` 打包后以 gzip 压缩
@@ -300,6 +300,7 @@ AIX|	`LIBPATH`
     - 存储用 xz（速度慢，压缩效率高）：
       - `tar Jcvf file_name.tar.xz dir_name ` 压缩
       - `tar Jxvf file_name.tar.xz` 解压缩
+  - 参考至：[Linux 中最佳的壓縮格式：為什麼 bzip2 會被 xz 取代？那 gzip 又如何？ - G. T. Wang](https://blog.gtwang.org/linux/linux-why-are-tar-archive-formats-switching-to-xz-compression-to-replace-bzip2-and-what-about-gzip/)
 - 字典存储：[DAWG](http://dawg.readthedocs.io/en/latest/)
 - 数据存储：[leveldb 资料整理 - 区块链知识库](http://lib.csdn.net/article/blockchain/46144)
 - 数据结构：[Bloom filter - Wikiwand](https://www.wikiwand.com/en/Bloom_filter)
@@ -523,4 +524,4 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 - 所有作者，是你们的智慧让我们感受到了知识的力量。
 - 所有传播者，是你们的乐于分享让我们在探索路上不再孤单彷徨。
 - [童老师](https://github.com/demon386)，资深算法工程师，牛人。其实相当大一部分内容来自童老师，从他身上学到太多东西，以至于现在还才消化了一丢丢。
-- [明生的博客 | Scott's Blog](http://scottming.com/)，自称木讷的程序猿，他的吐槽和对代码优雅的执着追求被迫让我改变了很多。
+- [明生的博客 | Scott's Blog](http://scottming.com/)，自称木讷的程序猿，他的吐槽和对代码优雅的执着追求让我被迫改变了很多。
