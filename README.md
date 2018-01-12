@@ -16,10 +16,10 @@
 
 
 - [更改源](#更改源)
-- [Terminal & Bash](#Terminal&Bash)
+- [Terminal&Bash](#Terminal&Bash)
 - [系统配置文件](#系统配置文件)
 - [环境变量](#环境变量)
-- [TerminalMultiplexers: Screen&Tmux](#TerminalMultiplexers: Screen&Tmux)
+- [TerminalMultiplexers:Screen&Tmux](#TerminalMultiplexers:Screen&Tmux)
 - [SSH&MOSH](#SSH&MOSH)
 - [GIT](#GIT)
 - [命令行工具](#命令行工具)
