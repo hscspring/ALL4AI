@@ -133,8 +133,9 @@ sudo apt-get update
   - 发布时，设置 `LD_LIBRARY_PATH`，以便程序加载运行时能够自动找到需要的动态链接库。
 - 不同操作系统的名称  
 
-  OS	|Environment Variable Name
------|----------
+
+OS	|Environment Variable Name
+-----|-----
 Linux|	`LD_LIBRARY_PATH`
 Solaris 32-bit ruby|`LD_LIBRARY_PATH_32 or LD_LIBRARY_PATH`
 Solaris 64-bit ruby|`LD_LIBRARY_PATH_64 or LD_LIBRARY_PATH`
