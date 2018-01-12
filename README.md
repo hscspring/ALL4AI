@@ -134,7 +134,7 @@ sudo apt-get update
 - 不同操作系统的名称  
 
   OS	|Environment Variable Name
----|----------
+-----|----------
 Linux|	`LD_LIBRARY_PATH`
 Solaris 32-bit ruby|`LD_LIBRARY_PATH_32 or LD_LIBRARY_PATH`
 Solaris 64-bit ruby|`LD_LIBRARY_PATH_64 or LD_LIBRARY_PATH`
