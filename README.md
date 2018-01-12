@@ -19,8 +19,8 @@
 - [Terminal & Bash](#Terminal&Bash)
 - [系统配置文件](#系统配置文件)
 - [环境变量](#环境变量)
-- [Terminal Multiplexers: Screen, Tmux](#Terminal Multiplexers: Screen, Tmux)
-- [SSH & MOSH](#SSH&MOSH)
+- [TerminalMultiplexers: Screen&Tmux](#TerminalMultiplexers: Screen&Tmux)
+- [SSH&MOSH](#SSH&MOSH)
 - [GIT](#GIT)
 - [命令行工具](#命令行工具)
 - [查找搜索](#查找搜索)
@@ -28,7 +28,7 @@
 - [版本控制及包管理](#版本控制及包管理)
 - [数据科学常用包](#数据科学常用包)
 - [数据存储及快速查询](#数据存储及快速查询)
-- [CUDA & CUDNN](#CUDA&CUDNN)
+- [CUDA&CUDNN](#CUDA&CUDNN)
 - [IDE](#IDE)
 - [代码检查](#代码检查)
 - [代码测试](#代码测试)
@@ -83,7 +83,7 @@ sudo apt-get update
 - [LUG's repo file generator](https://mirrors.ustc.edu.cn/repogen/)
 
 
-## Terminal & Bash
+## Terminal&Bash
 
 - Terminal: [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)
 - Bash: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)，需要先安装 Zsh: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
@@ -153,7 +153,7 @@ AIX|	`LIBPATH`
 
 
 
-## Terminal Multiplexers: Screen, Tmux
+## TerminalMultiplexers: Screen&Tmux
 
 远程会话窗口管理器，就是让你的远程连接（SSH）不中断，退出后下次登录时程序依然在运行。具体可参考：
 
@@ -170,7 +170,7 @@ AIX|	`LIBPATH`
 - 二者使用对比：[Terminal Multiplexers: Screen, Tmux - Hyperpolyglot](http://hyperpolyglot.org/multiplexers)
 
 
-## SSH & MOSH
+## SSH&MOSH
 
 - [SSH 原理与运用（一）：远程登录 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html)
 - 优化 SSH（断网不影响连接）：
