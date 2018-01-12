@@ -115,9 +115,7 @@ sudo apt-get update
 - 建议针对当前用户修改
 - 详细可移步：[.bash\_profile,profile,bashrc 的区别和启动顺序](https://blog.blogbins.com/bash_profile-profile-bashrcde-qu-bie-he-qi-dong-shun-xu/) 和 [科学网—linux 中 PATH 环境变量的作用和使用方法 - 张志斌的博文](http://blog.sciencenet.cn/blog-1339458-804112.html)
 
-参考至： 
-
-- [设置 Linux 环境变量的方法和区别\_Ubuntu\_给力星](http://www.powerxing.com/linux-environment-variable/)
+参考至：[设置 Linux 环境变量的方法和区别\_Ubuntu\_给力星](http://www.powerxing.com/linux-environment-variable/)
 
 ## 环境变量
 
@@ -300,7 +298,10 @@ AIX|	`LIBPATH`
     - 存储用 xz（速度慢，压缩效率高）：
       - `tar Jcvf file_name.tar.xz dir_name ` 压缩
       - `tar Jxvf file_name.tar.xz` 解压缩
-  - 参考至：[Linux 中最佳的壓縮格式：為什麼 bzip2 會被 xz 取代？那 gzip 又如何？ - G. T. Wang](https://blog.gtwang.org/linux/linux-why-are-tar-archive-formats-switching-to-xz-compression-to-replace-bzip2-and-what-about-gzip/)
+
+参考至：[Linux 中最佳的壓縮格式：為什麼 bzip2 會被 xz 取代？那 gzip 又如何？ - G. T. Wang](https://blog.gtwang.org/linux/linux-why-are-tar-archive-formats-switching-to-xz-compression-to-replace-bzip2-and-what-about-gzip/)
+
+
 - 字典存储：[DAWG](http://dawg.readthedocs.io/en/latest/)
 - 数据存储：[leveldb 资料整理 - 区块链知识库](http://lib.csdn.net/article/blockchain/46144)
 - 数据结构：[Bloom filter - Wikiwand](https://www.wikiwand.com/en/Bloom_filter)
@@ -440,7 +441,7 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
   - （1）写下（或者想象）一系列的使用实例，也就是程序应用时的场景，试着包括所有的功能。  
   - （2）一步步考虑每个使用实例，保证模型包括所有需要的东西。如果有些遗漏的话就添加进来。如果某处不太正确则改正。继续，直到满意为止。
 
-来源：https://www.zhihu.com/question/65622767/answer/233023480  
+来源：[如何设计好一个 python 的类？ - 知乎](https://www.zhihu.com/question/65622767/answer/233023480)  
 
 - [践行这五条原则，构建优秀的 Python 包 | 编程派 | Coding Python](http://codingpy.com/article/5-simple-rules-for-building-great-python-packages/)
 
@@ -465,6 +466,8 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
   - topcoder.com —— 经常在线举行编程竞赛，可以去练练手，找找成就感。不过，有的竞赛题目并不简单，也比较刁钻。
 - 各种语言算法实现
   - [String matching - Rosetta Code](https://www.rosettacode.org/wiki/String_matching)
+
+部分参考至：[有程序员专门刷题的网站吗？ - 知乎](https://www.zhihu.com/question/36488823/answer/173370435)
 
 
 
