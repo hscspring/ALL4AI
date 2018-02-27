@@ -258,6 +258,8 @@ AIX|	`LIBPATH`
   - 创建：`mkdir name; virtualenv --arguments [name]; cd name`
   - 激活：`source ./bin/activate`
   - 关闭：`deactivate`
+- **推荐**的 Python 包开发管理工具：[Pipenv: Python Dev Workflow for Humans](https://docs.pipenv.org/)
+
 
 **注意**：安装 `Conda` 后，`pyenv` 的虚拟环境会由 `Conda` 接管。详见：[pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)](https://github.com/pyenv/pyenv-virtualenv)。
 
