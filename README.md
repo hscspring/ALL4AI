@@ -394,6 +394,13 @@ AIX|	`LIBPATH`
   - [composer/docker: Composer in Docker](https://github.com/composer/docker)
   - [Docker](https://docs.docker.com/)
   - [Kubernetes](https://www.kubernetes.org.cn/docs)
+- python 协程库：
+  - [dabeaz/curio: Curio - The Small Coroutine Library You Were Warned About](https://github.com/dabeaz/curio)
+  - [python-trio/trio: Trio – Pythonic async I/O for humans and snake people 🐍](https://github.com/python-trio/trio)
+- web 框架
+  - [channelcat/sanic: Async Python 3.5+ web server that's written to go fast](https://github.com/channelcat/sanic)
+- 数据库
+  - [MagicStack/asyncpg: A fast PostgreSQL Database Client Library for Python/asyncio.](https://github.com/MagicStack/asyncpg)
 - JWT
   - [JSON Web Token - 在 Web 应用间安全地传递信息 - 回田园](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
   - [Where to Store JWTs - Cookies vs HTML5 Web Storage | Stormpath](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage)
@@ -411,7 +418,6 @@ AIX|	`LIBPATH`
   - 参考网站：[Buy/Sell Digital Currency - Coinbase](https://www.coinbase.com/?locale=en)
   - [donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)
 - [High Performance Browser Networking (豆瓣)](https://book.douban.com/subject/21866396/?dt_platform=com.douban.activity.wechat_friends&dt_dapp=1)
-
 
 
 ## 设计五原则  
