@@ -485,6 +485,7 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
   - [ML, DM, and AI Conference Map](http://www.kamishima.net/archive/MLDMAImap.pdf)
   - 会议汇总：[ACL Anthology](https://aclanthology.coli.uni-saarland.de/)
 
+
 - 自然语言处理（NLP）
   - 会议：[ACL Wiki](https://aclweb.org/aclwiki/Main_Page)
   - 会议：[emnlp2017](http://emnlp2017.net/)
@@ -498,10 +499,10 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
   - 会议（国内）：[机器翻译论坛网 - 首页](http://mtforum.niutrans.com/index.html)
   - 会议（国内）：[中国中文信息学会（CIPS）青年工作委员会 2018 年学术活动安排](http://www.cipsc.org.cn/qngw/?p=1248)
   - 会议（国内）：[中国中文信息学会暑期学校](http://www.cipsc.org.cn/pic_content.php?&xuhao=80)
-  
   - 期刊：[Computational Linguistics | MIT Press Journals](https://www.mitpressjournals.org/loi/coli)
   - 期刊：[中国中文信息学会](http://www.cipsc.org.cn/)
   - 论文：[Computation and Language](https://arxiv.org/list/cs.CL/recent)
+
 
 - 机器学习（ML）
   - 会议：[NIPS](https://nips.cc/)
@@ -512,17 +513,20 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
   - 期刊：[Journal of Machine Learning Research Homepage](http://www.jmlr.org/)
   - 期刊：[Machine Learning](http://www.springer.com/computer/ai/journal/10994)
 
+
 - 人工智能（AI）
   - 会议：[Association for the Advancement of Artificial Intelligence](https://www.aaai.org/)
   - 会议：[Welcome to IJCAI 2017!](https://ijcai-17.org/)
   - 期刊：[Artificial Intelligence - Journal - Elsevier](https://www.journals.elsevier.com/artificial-intelligence/)
   - 期刊：[JAIR](http://www.jair.org/)
 
+
 - 数据挖掘（DM)
   - 会议：[KDD](http://www.kdd.org/kdd2017/)
   - 会议：[CIKM 2017](http://www.cikm2017.org/)
   - 会议：[SIGIR | Special Interest Group on Information Retrieval](http://sigir.org/)
   - 会议：[WSDM](http://www.wsdm-conference.org/2018/)
+
 
 - 推荐系统（RS）
   - [RecSys – ACM Recommender Systems](https://recsys.acm.org/)
