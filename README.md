@@ -95,6 +95,7 @@ sudo apt-get update
 - `/etc/profile`: 此文件为系统的每个用户设置环境信息。当用户登录时，该文件被执行一次，并从 `/etc/profile.d` 目录的配置文件中搜集 shell 的设置。一般用于设置所有用户使用的全局变量。
 - `/etc/bashrc`: 当 bash shell 被打开时，该文件被读取。也就是说，每次新打开一个终端 shell，该文件就会被读取。
 - `/etc/paths` 
+- [echo 变量内容删除和替换](http://blog.51cto.com/sndapk/1093073)
 
 ### 单个用户
 
