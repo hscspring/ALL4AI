@@ -232,14 +232,12 @@ AIX|	`LIBPATH`
 
 ## 版本控制及包管理
 
-
-
 - 虚拟机管理：[Vagrant by HashiCorp](https://www.vagrantup.com/)
   - 安装碰到问题：[Ubuntu16.04 安装 VirtualBox & Vagrant 管理 VirtualBox 各种问题总结](http://yam.gift/2016/09/04/2016-09-20-Ubuntu-VirtualBox-Vagrant-questions/)
   - 使用：[Introduction - Vagrant by HashiCorp](https://www.vagrantup.com/intro/index.html)
 - 版本控制：[pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)，注意 pyenv 的路径是可以改的
   - 安装软件（不是安装 pyenv），举例安装 Anaconda：  
-    `wget -P $(pyenv root)/cache https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.0.0-MacOSX-x86_64.sh`   
+    `wget -P $(pyenv root)/cache https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.0.0-MacOSX-x86_64.sh` 
     `pyenv install Anaconda3-4.0.0`
   - 创建：`pyenv virtualenv [version] [name]`
   - 激活：`pyenv activate name` or `source activate name`
@@ -261,8 +259,22 @@ AIX|	`LIBPATH`
   - 关闭：`deactivate`
 - **推荐**的 Python 包**开发**管理工具：[Pipenv: Python Dev Workflow for Humans](https://docs.pipenv.org/)
 
-
 **注意**：安装 `Conda` 后，`pyenv` 的虚拟环境会由 `Conda` 接管。详见：[pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)](https://github.com/pyenv/pyenv-virtualenv)。
+
+- Mac 上的 Python
+
+  经过不少的实践，在 Mac 上可以使用 homebrew 来管理 python 版本，大多数时候我们只需要一个稳定的版本就够了，具体项目中可以使用 pipenv。要安装不同的版本，方法如下：
+
+  - `brew unlink python` 解除现有版本的绑定
+  - `brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/hash/Formula/python.rb`，其中的 hash 可在 [History for Formula/python.rb - Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core/commits/master?path%5B%5D=Formula&path%5B%5D=python.rb) 中找到，如果要的版本太旧，往前翻时并不会显示，但会有提醒告知如何查看。
+  - 在你的 bash 或 zsh 配置文件中添加：`export PATH="/usr/local/opt/python/libexec/bin:$PATH"`
+  - `brew switch python xxx` 切换各种版本，所有的东西都会自动弄好
+
+  注意：只要这么操作就可以无痛使用（Mac），但如果你想更深入了解一下，下面的内容可以参考：
+
+  - `which python` --> `/usr/local/opt/python/libexec/bin/python`，切换到这个目录会发现这里的所有东西都指向你当前的 python 版本
+  - 上面目录指向的地方其实在 `/usr/local/opt/python/Frameworks/Python.framework/Versions`
+  - 真正的地方应该在 `/usr/local/Cellar/python` 目录，该目录下有所有的 python 版本。
 
 
 ## 数据科学常用包
