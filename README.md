@@ -190,6 +190,7 @@ AIX|	`LIBPATH`
   - [常用 Git 命令清单 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
   - Git **下载部分内容**：[DownGit](https://minhaskamal.github.io/DownGit/#/home)
   - GitHub [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
+- Git Query 工具：[cloudson/gitql: A git query language](https://github.com/cloudson/gitql)
 - 一些技巧
   - [Git 秘籍](https://www.gitbook.com/book/snowdream86/github-cheat-sheet/details/zh)
   - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html#cherry-pick)
