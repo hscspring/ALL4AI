@@ -150,8 +150,6 @@ AIX|	`LIBPATH`
   - [LIBRARY\_PATH 和 LD\_LIBRARY\_PATH 环境变量的区别 - 大圆那些事 - 博客园](http://www.cnblogs.com/panfeng412/archive/2011/10/20/library_path-and-ld_library_path.html)  
   - [LD\_LIBRARY\_PATH 与 LIBPATH - russle 的专栏 - CSDN 博客](http://blog.csdn.net/russle/article/details/7228462)
 
-
-
 ## TerminalMultiplexers:Screen&Tmux
 
 远程会话窗口管理器，就是让你的远程连接（SSH）不中断，退出后下次登录时程序依然在运行。具体可参考：
@@ -214,8 +212,6 @@ AIX|	`LIBPATH`
   - [klen/atmark: Awk+Sed for humans](https://github.com/klen/atmark)
 - 各种命令使用快查：[tldr-pages/tldr: Simplified and community-driven man pages](https://github.com/tldr-pages/tldr)
 - [应该知道的 Linux 技巧](https://coolshell.cn/articles/8883.html)
-
-
 
 ## 查找搜索
 
@@ -408,6 +404,12 @@ AIX|	`LIBPATH`
 
 ## 工程
 
+- Model Serving
+  - [Kubeflow](https://www.kubeflow.org/)
+  - [tensorflow/serving](https://github.com/tensorflow/serving)
+  - [mvitez/thnets: Basic library that can run networks created with Torch](https://github.com/mvitez/thnets)
+  - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
+
 
 - 可视化
   - [plotly/dash: Interactive, Reactive Web Apps for Python. Dash Is Productive™](https://github.com/plotly/dash)
@@ -554,14 +556,10 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 - 推荐系统（RS）
   - [RecSys – ACM Recommender Systems](https://recsys.acm.org/)
 
-
-
 ## 其他
 
 - 正版软件代理：[数码荔枝 - 专注于分享最新鲜优秀的正版软件](https://www.lizhi.io/)
 - [Spectacle](https://www.spectacleapp.com/): Mac 窗口拖拉
-
-
 
 
 ## 致谢
