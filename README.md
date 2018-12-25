@@ -300,6 +300,10 @@ AIX|	`LIBPATH`
   		- `pip install ipyparallel`
   		- `ipcluster nbextension enable`
 
+## 配置工具
+
+- [chimpler/pyhocon: HOCON parser for Python](https://github.com/chimpler/pyhocon)
+- [rbgirshick/yacs: YACS -- Yet Another Configuration System](https://github.com/rbgirshick/yacs)
 
 ## 数据存储及快速查询
 
@@ -389,8 +393,6 @@ AIX|	`LIBPATH`
   - dev 为开发版
 - 自动触发：[Watchman A file watching service | Watchman](https://facebook.github.io/watchman/)
 
-
-
 ## 性能  
 
 - 尽量使用 Numpy 或 Pandas，因为它们底层是 C
@@ -401,7 +403,8 @@ AIX|	`LIBPATH`
 - [Boost.Python Tutorial - 1.65.1](http://www.boost.org/doc/libs/1_65_1/libs/python/doc/html/tutorial/index.html)
 - [Tutorials — Cython](http://docs.cython.org/en/latest/src/tutorial/)
 
-
+- [ray-project/ray: A system for parallel and distributed Python that unifies the ML ecosystem.](https://github.com/ray-project/ray)
+- [scikit-build/ninja-python-distributions: This project provides a \`setup.py\` script that build Ninja Python wheels.](https://github.com/scikit-build/ninja-python-distributions)
 
 ## 工程
 
