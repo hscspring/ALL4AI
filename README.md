@@ -236,29 +236,30 @@ AIX|	`LIBPATH`
 - 虚拟机管理：[Vagrant by HashiCorp](https://www.vagrantup.com/)
   - 安装碰到问题：[Ubuntu16.04 安装 VirtualBox & Vagrant 管理 VirtualBox 各种问题总结](http://yam.gift/2016/09/04/2016-09-20-Ubuntu-VirtualBox-Vagrant-questions/)
   - 使用：[Introduction - Vagrant by HashiCorp](https://www.vagrantup.com/intro/index.html)
+- 虚拟环境：[Reference Guide — virtualenv 15.1.0 documentation](https://virtualenv.pypa.io/en/stable/reference/#options)
+  - 安装：`pip install virtualenv`  
+  - 创建虚拟环境：`mkdir name; virtualenv --arguments [name]; cd name`
+  - 激活：`source ./bin/activate`
+  - 关闭：`deactivate`
 - 版本控制：[pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)，注意 pyenv 的路径是可以改的
   - 安装软件（不是安装 pyenv），举例安装 Anaconda：  
     `wget -P $(pyenv root)/cache https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.0.0-MacOSX-x86_64.sh` 
     `pyenv install Anaconda3-4.0.0`
-  - 创建：`pyenv virtualenv [version] [name]`
+  - 创建虚拟环境：`pyenv virtualenv [version] [name]`
   - 激活：`pyenv activate name` or `source activate name`
   - 关闭：`pyenv deactivate`
 - 包管理：[Conda — Conda documentation](https://conda.io/docs/)
   - conda 必须安装 miniconda 或 Anaconda
   - `conda list`
   - `conda search`
-  - 创建：`conda create -n [name] python=3.6.2`
+  - 创建虚拟环境：`conda create -n [name] python=3.6.2`
   - 激活：`source activate name`
   - 关闭：`source deactivate`
 - Python 包管理：[pip — pip 9.0.1 documentation](https://pip.pypa.io/en/stable/)
   - 更换源：[Mac OX 设置 pip 国内镜像，下载速度超快 - 简书](https://www.jianshu.com/p/e993bdfff7b3)
   - 多个源：[pip：指定多个源 / 内部源 - CSDN 博客](http://blog.csdn.net/K_Zombie/article/details/50478577)
-- 建议的虚拟环境：[Reference Guide — virtualenv 15.1.0 documentation](https://virtualenv.pypa.io/en/stable/reference/#options)
-  - 安装：`pip install virtualenv`  
-  - 创建：`mkdir name; virtualenv --arguments [name]; cd name`
-  - 激活：`source ./bin/activate`
-  - 关闭：`deactivate`
 - **推荐**的 Python 包**开发**管理工具：[Pipenv: Python Dev Workflow for Humans](https://docs.pipenv.org/)
+- **推荐**的创建虚拟环境方法：`python3 -m venv [name]`，详见：[venv](https://docs.python.org/3.6/library/venv.html)
 
 **注意**：安装 `Conda` 后，`pyenv` 的虚拟环境会由 `Conda` 接管。详见：[pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)](https://github.com/pyenv/pyenv-virtualenv)。
 
