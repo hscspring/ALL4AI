@@ -1,7 +1,5 @@
 # AI 基础工具箱
 
-
-
 >**说明**：
 >
 >1. 来源于新手日常工作积累、踩坑，目的是方便更多新人快速上手，少像我一样走弯路。 
@@ -295,8 +293,6 @@ AIX|	`LIBPATH`
 - 数据存储：[leveldb 资料整理 - 区块链知识库](http://lib.csdn.net/article/blockchain/46144)
 - 数据结构：[Bloom filter - Wikiwand](https://www.wikiwand.com/en/Bloom_filter)
 
-
-
 ## CUDA & CUDNN
 
 强烈建议看官方文档，不要看各类教程。
@@ -336,8 +332,9 @@ AIX|	`LIBPATH`
       - [vim 插件管理器：Vundle 的介绍及安装](http://blog.csdn.net/zhangpower1993/article/details/52184581)
       - [Vim 与 Python 真乃天作之合](http://codingpy.com/article/vim-and-python-match-in-heaven/)
 
-
 ## 代码检查
+
+- [Code Climate · GitHub Marketplace](https://github.com/marketplace/code-climate)
 
 - 代码检查：[flake8 3.4.1 : Python Package Index](https://pypi.python.org/pypi/flake8)
 - 代码复杂度检查：[rubik/radon: Various code metrics for Python code](https://github.com/rubik/radon)
@@ -476,8 +473,6 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 
 部分参考至：[有程序员专门刷题的网站吗？ - 知乎](https://www.zhihu.com/question/36488823/answer/173370435)
 
-
-
 ## 论文、会议及期刊
 
 - 汇总
@@ -548,8 +543,7 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 
 ## 致谢
 
+- 所有作者，是你们的智慧让我们感受到了知识的力量；所有传播者，是你们的乐于分享让我们在探索路上不再孤单彷徨。
 
-- 所有作者，是你们的智慧让我们感受到了知识的力量。
-- 所有传播者，是你们的乐于分享让我们在探索路上不再孤单彷徨。
-- [童老师](https://github.com/demon386)，资深算法工程师，牛人。其实相当大一部分内容来自童老师，从他身上学到太多东西，以至于现在还才消化了一丢丢。
-- [明生的博客 | Scott's Blog](http://scottming.com/)，自称木讷的程序猿，他的吐槽和对代码优雅的执着追求让我被迫改变了很多。
+
+- [童老师](https://github.com/demon386)，资深算法工程师，牛人。其实相当大一部分内容来自童老师，从他身上学到太多东西，以至于现在还才消化了一丢丢。[明生的博客 | Scott's Blog](http://scottming.com/)，自称木讷的程序猿，他的吐槽和对代码优雅的执着追求让我被迫改变了很多。
