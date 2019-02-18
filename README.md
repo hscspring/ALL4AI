@@ -408,7 +408,9 @@ AIX|	`LIBPATH`
   - [Kubeflow](https://www.kubeflow.org/)
   - [tensorflow/serving](https://github.com/tensorflow/serving)
   - [mvitez/thnets: Basic library that can run networks created with Torch](https://github.com/mvitez/thnets)
+  - [Serving Trained Model (aka Model API) - FloydHub Documentation](https://docs.floydhub.com/guides/serving/)
   - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
+  - [PyTorch 1.0 tracing JIT and LibTorch C++ API to integrate PyTorch into NodeJS](http://blog.christianperone.com/2018/10/pytorch-1-0-tracing-jit-and-libtorch-c-api-to-integrate-pytorch-into-nodejs/)
 
 
 - 可视化
@@ -555,6 +557,16 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 
 - 推荐系统（RS）
   - [RecSys – ACM Recommender Systems](https://recsys.acm.org/)
+
+## 学习资源
+
+### Pytorch
+
+- [fast.ai · Making neural nets uncool again](https://www.fast.ai/)
+
+### Tensorflow
+
+- [TensorFlow](https://www.tensorflow.org/tutorials)
 
 ## 其他
 
