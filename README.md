@@ -270,6 +270,7 @@ AIX|	`LIBPATH`
 
 - [chimpler/pyhocon: HOCON parser for Python](https://github.com/chimpler/pyhocon)
 - [rbgirshick/yacs: YACS -- Yet Another Configuration System](https://github.com/rbgirshick/yacs)
+- Host 修改工具：[Clockwise](http://clockwise.ee/)
 
 ## 数据存储及快速查询
 
@@ -540,6 +541,9 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 ### 爬虫
 
 - [Selenium with Python — Selenium Python Bindings 2 documentation](https://selenium-python.readthedocs.io/index.html)，有了它没有什么是不能爬的
+    - Mac 安装时，需要重新安装 pycurl，首先 `pip uninstall pycurl`
+    - 然后 `export PYCURL_SSL_LIBRARY=openssl`
+    - 再 `export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include;pip install pycurl==7.43.0.1 --compile --no-cache-dir`
 
 - [Scrapy 1.6 documentation — Scrapy 1.6.0 documentation](https://docs.scrapy.org/en/latest/index.html)
 - [scrapinghub/portia: Visual scraping for Scrapy](https://github.com/scrapinghub/portia)，可视化 Scrapy
