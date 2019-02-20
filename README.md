@@ -535,6 +535,16 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 
 - [TensorFlow](https://www.tensorflow.org/tutorials)
 
+## 数据
+
+### 爬虫
+
+- [Selenium with Python — Selenium Python Bindings 2 documentation](https://selenium-python.readthedocs.io/index.html)，有了它没有什么是不能爬的
+
+- [Scrapy 1.6 documentation — Scrapy 1.6.0 documentation](https://docs.scrapy.org/en/latest/index.html)
+- [scrapinghub/portia: Visual scraping for Scrapy](https://github.com/scrapinghub/portia)，可视化 Scrapy
+- [lorien/grab: Web Scraping Framework](https://github.com/lorien/grab)
+
 ## 其他
 
 - 正版软件代理：[数码荔枝 - 专注于分享最新鲜优秀的正版软件](https://www.lizhi.io/)
