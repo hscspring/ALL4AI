@@ -186,6 +186,7 @@ AIX|	`LIBPATH`
 ## 查找搜索
 
 - 快速查找：[junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)，这里有一些很好的例子：[Examples · junegunn/fzf Wiki](https://github.com/junegunn/fzf/wiki/examples)
+- [mooz/percol: adds flavor of interactive filtering to the traditional pipe concept of UNIX shell](https://github.com/mooz/percol#whats-this)
 - 文本搜索：[Geoff Greer's site: The Silver Searcher](https://geoff.greer.fm/ag/)
 - 字符串搜索：[pyahocorasick — ahocorasick 1.1.0 documentation](http://pyahocorasick.readthedocs.io/en/latest/)
 
