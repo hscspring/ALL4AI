@@ -319,8 +319,16 @@ AIX|	`LIBPATH`
   - 设置 TAB 键为空格：`{
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
-}`
+  }`
   - pep8 插件，使用：`Ctrl + Shift + 8`
+- Emacs
+  - [GNU Emacs download - GNU Project](https://www.gnu.org/software/emacs/download.html#macos)
+  - Learn: 
+    - [Emacs is sexy](http://emacs.sexy/#learn)
+    - [一年成为 Emacs 高手 (像神一样使用编辑器) - redguardtoo 的专栏 - CSDN 博客](https://blog.csdn.net/redguardtoo/article/details/7222501)
+  - Errors on Mac:
+    - [macos - Failed to initialize color list](https://stackoverflow.com/questions/52521587/emacs-error-when-i-call-it-in-the-terminal)
+    - iTerm Alt Metakey: [macos - Bash keyboard shortcuts in iTerm like Alt+d and Alt+f - Stack Overflow](https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf)
 - Vim
   - 技巧：
       - [YBlog - Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
