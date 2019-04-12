@@ -341,6 +341,9 @@ AIX|	`LIBPATH`
       - [A Good Vimrc](https://dougblack.io/words/a-good-vimrc.html)
       - [vim 插件管理器：Vundle 的介绍及安装](http://blog.csdn.net/zhangpower1993/article/details/52184581)
       - [Vim 与 Python 真乃天作之合](http://codingpy.com/article/vim-and-python-match-in-heaven/)
+  - 快捷键：
+      - [vi 與 vim 的指令整理 | Vixual](http://www.vixual.net/blog/archives/234)
+      - [給程式設計師的 Vim 入門圖解說明 | vgod's blog](http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/)
 
 ## 代码检查
 
