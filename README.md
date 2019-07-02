@@ -329,6 +329,8 @@ AIX|	`LIBPATH`
   - Errors on Mac:
     - [macos - Failed to initialize color list](https://stackoverflow.com/questions/52521587/emacs-error-when-i-call-it-in-the-terminal)
     - iTerm Alt Metakey: [macos - Bash keyboard shortcuts in iTerm like Alt+d and Alt+f - Stack Overflow](https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf)
+  - 快捷键：
+      - [Emacs Keys Basics](http://ergoemacs.org/emacs/emacs_keys_basics.html)
 - Vim
   - 技巧：
       - [YBlog - Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
@@ -348,12 +350,12 @@ AIX|	`LIBPATH`
 ## 代码检查
 
 - [Code Climate · GitHub Marketplace](https://github.com/marketplace/code-climate)
-
 - 代码检查：[flake8 3.4.1 : Python Package Index](https://pypi.python.org/pypi/flake8)
 - 代码复杂度检查：[rubik/radon: Various code metrics for Python code](https://github.com/rubik/radon)
 - 统计代码行数：[CLOC -- Count Lines of Code](http://cloc.sourceforge.net/)
 - 代码对比：[Scooter Software: Home of Beyond Compare](https://www.scootersoftware.com/)
 - 建议阅读[代码整洁之道 (豆瓣)](https://book.douban.com/subject/4199741/)，初期不需要太追求优化。
+- [github/semantic: Parsing, analyzing, and comparing source code across many languages](https://github.com/github/semantic)
 
 
 ## 代码测试
@@ -560,6 +562,10 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 - [Scrapy 1.6 documentation — Scrapy 1.6.0 documentation](https://docs.scrapy.org/en/latest/index.html)
 - [scrapinghub/portia: Visual scraping for Scrapy](https://github.com/scrapinghub/portia)，可视化 Scrapy
 - [lorien/grab: Web Scraping Framework](https://github.com/lorien/grab)
+
+## 小工具
+
+- Latex 图片转公式：[Mathpix Snip](https://mathpix.com/)
 
 ## 其他
 
