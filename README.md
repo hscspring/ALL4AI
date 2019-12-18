@@ -12,7 +12,6 @@
 
 <div class="toc"><ul class="toc-item"><li><span><a href="#更改源" data-toc-modified-id="更改源-2">更改源 </a></span></li><li><span><a href="#Terminal&amp;Bash" data-toc-modified-id="Terminal&amp;Bash-3">Terminal&amp;Bash</a></span></li><li><span><a href="#系统配置文件" data-toc-modified-id="系统配置文件-4">系统配置文件 </a></span><ul class="toc-item"><li><span><a href="#所有用户" data-toc-modified-id="所有用户-4.1">所有用户 </a></span></li><li><span><a href="#单个用户" data-toc-modified-id="单个用户-4.2">单个用户 </a></span></li></ul></li><li><span><a href="#环境变量" data-toc-modified-id="环境变量-5">环境变量 </a></span></li><li><span><a href="#TerminalMultiplexers:Screen&amp;Tmux" data-toc-modified-id="TerminalMultiplexers:Screen&amp;Tmux-6">TerminalMultiplexers:Screen&amp;Tmux</a></span></li><li><span><a href="#SSH&amp;MOSH" data-toc-modified-id="SSH&amp;MOSH-7">SSH&amp;MOSH</a></span></li><li><span><a href="#GIT" data-toc-modified-id="GIT-8">GIT</a></span></li><li><span><a href="#命令行工具" data-toc-modified-id="命令行工具-9">命令行工具 </a></span></li><li><span><a href="#查找搜索" data-toc-modified-id="查找搜索-10">查找搜索 </a></span></li><li><span><a href="#复制粘贴" data-toc-modified-id="复制粘贴-11">复制粘贴 </a></span></li><li><span><a href="#版本控制及包管理" data-toc-modified-id="版本控制及包管理-12">版本控制及包管理 </a></span></li><li><span><a href="#数据科学常用包" data-toc-modified-id="数据科学常用包-13">数据科学常用包 </a></span></li><li><span><a href="#配置工具" data-toc-modified-id="配置工具-14">配置工具 </a></span></li><li><span><a href="#数据存储及快速查询" data-toc-modified-id="数据存储及快速查询-15">数据存储及快速查询 </a></span></li><li><span><a href="#CUDA-&amp;-CUDNN" data-toc-modified-id="CUDA-&amp;-CUDNN-16">CUDA &amp; CUDNN</a></span></li><li><span><a href="#IDE" data-toc-modified-id="IDE-17">IDE</a></span></li><li><span><a href="#代码检查" data-toc-modified-id="代码检查-18">代码检查 </a></span></li><li><span><a href="#代码测试" data-toc-modified-id="代码测试-19">代码测试 </a></span></li><li><span><a href="#代码部署" data-toc-modified-id="代码部署-20">代码部署 </a></span></li><li><span><a href="#性能" data-toc-modified-id="性能-21">性能 </a></span></li><li><span><a href="#工程" data-toc-modified-id="工程-22">工程 </a></span></li><li><span><a href="#设计五原则" data-toc-modified-id="设计五原则-23">设计五原则 </a></span></li><li><span><a href="#刷题" data-toc-modified-id="刷题-24">刷题 </a></span></li><li><span><a href="#论文、会议及期刊" data-toc-modified-id="论文、会议及期刊-25">论文、会议及期刊 </a></span></li><li><span><a href="#学习资源" data-toc-modified-id="学习资源-26">学习资源 </a></span><ul class="toc-item"><li><span><a href="#Pytorch" data-toc-modified-id="Pytorch-26.1">Pytorch</a></span></li><li><span><a href="#Tensorflow" data-toc-modified-id="Tensorflow-26.2">Tensorflow</a></span></li></ul></li><li><span><a href="#其他" data-toc-modified-id="其他-27">其他 </a></span></li><li><span><a href="#致谢" data-toc-modified-id="致谢-28">致谢 </a></span></li></ul></div>
 
-
 ## 更改源
 
 更改 Linux 系统软件源，让下载个更新更快。常用源有以下几个：
@@ -241,9 +240,13 @@ AIX|	`LIBPATH`
 
   注意：只要这么操作就可以无痛使用（Mac），但如果你想更深入了解一下，下面的内容可以参考：
 
-  - `which python` --> `/usr/local/opt/python/libexec/bin/python`，切换到这个目录会发现这里的所有东西都指向你当前的 python 版本
-  - 上面目录指向的地方其实在 `/usr/local/opt/python/Frameworks/Python.framework/Versions`
-  - 真正的地方应该在 `/usr/local/Cellar/python` 目录，该目录下有所有的 python 版本。
+  - brew 安装的 python 在 `/usr/local/Cellar/python/3.7.4_1/`
+  - `site-packages` 实际位置在 `/usr/local/lib/python*`
+  - brew 安装好后会在两个地方创建链接：
+      - `/usr/local/opt/python/libexec/bin/`
+      - `/usr/local/bin/`
+  - 系统自带的在 `/usr/bin/python*`，实际位置在 `/System/Library/Frameworks/Python.framework/Versions/`
+  - 直接用 link 来管理 python 版本：python2，python3 分别对应相应版本
 
 
 ## 数据科学常用包
