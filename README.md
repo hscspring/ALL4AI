@@ -11,7 +11,6 @@
 ## 目录
 
 <div class="toc"><ul class="toc-item"><li><span><a href="#更改源" data-toc-modified-id="更改源-2">更改源 </a></span></li><li><span><a href="#Terminal&amp;Bash" data-toc-modified-id="Terminal&amp;Bash-3">Terminal&amp;Bash</a></span></li><li><span><a href="#系统配置文件" data-toc-modified-id="系统配置文件-4">系统配置文件 </a></span><ul class="toc-item"><li><span><a href="#所有用户" data-toc-modified-id="所有用户-4.1">所有用户 </a></span></li><li><span><a href="#单个用户" data-toc-modified-id="单个用户-4.2">单个用户 </a></span></li></ul></li><li><span><a href="#环境变量" data-toc-modified-id="环境变量-5">环境变量 </a></span></li><li><span><a href="#TerminalMultiplexers:Screen&amp;Tmux" data-toc-modified-id="TerminalMultiplexers:Screen&amp;Tmux-6">TerminalMultiplexers:Screen&amp;Tmux</a></span></li><li><span><a href="#SSH&amp;MOSH" data-toc-modified-id="SSH&amp;MOSH-7">SSH&amp;MOSH</a></span></li><li><span><a href="#GIT" data-toc-modified-id="GIT-8">GIT</a></span></li><li><span><a href="#命令行工具" data-toc-modified-id="命令行工具-9">命令行工具 </a></span></li><li><span><a href="#查找搜索" data-toc-modified-id="查找搜索-10">查找搜索 </a></span></li><li><span><a href="#复制粘贴" data-toc-modified-id="复制粘贴-11">复制粘贴 </a></span></li><li><span><a href="#版本控制及包管理" data-toc-modified-id="版本控制及包管理-12">版本控制及包管理 </a></span></li><li><span><a href="#数据科学常用包" data-toc-modified-id="数据科学常用包-13">数据科学常用包 </a></span></li><li><span><a href="#配置工具" data-toc-modified-id="配置工具-14">配置工具 </a></span></li><li><span><a href="#数据存储及快速查询" data-toc-modified-id="数据存储及快速查询-15">数据存储及快速查询 </a></span></li><li><span><a href="#CUDA-&amp;-CUDNN" data-toc-modified-id="CUDA-&amp;-CUDNN-16">CUDA &amp; CUDNN</a></span></li><li><span><a href="#IDE" data-toc-modified-id="IDE-17">IDE</a></span></li><li><span><a href="#代码检查" data-toc-modified-id="代码检查-18">代码检查 </a></span></li><li><span><a href="#代码测试" data-toc-modified-id="代码测试-19">代码测试 </a></span></li><li><span><a href="#代码部署" data-toc-modified-id="代码部署-20">代码部署 </a></span></li><li><span><a href="#性能" data-toc-modified-id="性能-21">性能 </a></span></li><li><span><a href="#工程" data-toc-modified-id="工程-22">工程 </a></span></li><li><span><a href="#设计五原则" data-toc-modified-id="设计五原则-23">设计五原则 </a></span></li><li><span><a href="#刷题" data-toc-modified-id="刷题-24">刷题 </a></span></li><li><span><a href="#论文、会议及期刊" data-toc-modified-id="论文、会议及期刊-25">论文、会议及期刊 </a></span></li><li><span><a href="#学习资源" data-toc-modified-id="学习资源-26">学习资源 </a></span><ul class="toc-item"><li><span><a href="#Pytorch" data-toc-modified-id="Pytorch-26.1">Pytorch</a></span></li><li><span><a href="#Tensorflow" data-toc-modified-id="Tensorflow-26.2">Tensorflow</a></span></li></ul></li><li><span><a href="#其他" data-toc-modified-id="其他-27">其他 </a></span></li><li><span><a href="#致谢" data-toc-modified-id="致谢-28">致谢 </a></span></li></ul></div>
-
 ## 更改源
 
 更改 Linux 系统软件源，让下载个更新更快。常用源有以下几个：
@@ -133,6 +132,7 @@ AIX|	`LIBPATH`
   - [tmuxp — tmuxp 1.3.5 documentation](https://tmuxp.git-pull.com/en/latest/)
   - [优雅地使用命令行：Tmux 终端复用 | Harttle Land](http://harttle.land/2015/11/06/tmux-startup.html)
   - [Linux 下终端利器 tmux - OPS Notes By 枯木](http://kumu-linux.github.io/blog/2013/08/06/tmux/)
+  - [Tmux Cheat Sheet & Quick Reference](https://tmuxcheatsheet.com/)
 - 二者使用对比：[Terminal Multiplexers: Screen, Tmux - Hyperpolyglot](http://hyperpolyglot.org/multiplexers)
 
 
@@ -141,6 +141,7 @@ AIX|	`LIBPATH`
 - [SSH 原理与运用（一）：远程登录 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html)
 - 优化 SSH（断网不影响连接）：
   - [Mosh: the mobile shell](https://mosh.org/)
+  - [Tutorial: Ditch SSH, get started with Mosh | Serverwise](https://blog.ssdnodes.com/blog/tutorial-ditch-ssh-get-started-mosh/)
   - 中文简版：[技术 | mosh：一个基于 SSH 用于连接远程 Unix/Linux 系统的工具](https://linux.cn/article-6262-1.html)
   - [使用 Mosh 来优化 SSH 连接 - 运维之美 - 伪程序员](https://www.dengxiangxing.com/post/25081)
 - 服务器本地传输
