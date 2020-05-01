@@ -2,15 +2,13 @@
 
 >**说明**：
 >
->1. 来源于新手日常工作积累、踩坑，目的是方便更多新人快速上手，少像我一样走弯路。 
+>1. 来源于**新手**日常工作积累、踩坑，目的是方便更多新人快速上手，少像我一样走弯路。 
 >2. 默认顺序是一台新电脑开始配置，也可以直接看需要的部分。 
->3. 不会列特别详细的内容，但是会给出链接，部分会有特别提醒注意事项。 
->4. 涉及到的库很多是基于 Python 的。
->5. 不定期持续更新，有任何疑问欢迎 Issue。
 
 ## 目录
 
-<div class="toc"><ul class="toc-item"><li><span><a href="#更改源" data-toc-modified-id="更改源-2">更改源 </a></span></li><li><span><a href="#Terminal&amp;Bash" data-toc-modified-id="Terminal&amp;Bash-3">Terminal&amp;Bash</a></span></li><li><span><a href="#系统配置文件" data-toc-modified-id="系统配置文件-4">系统配置文件 </a></span><ul class="toc-item"><li><span><a href="#所有用户" data-toc-modified-id="所有用户-4.1">所有用户 </a></span></li><li><span><a href="#单个用户" data-toc-modified-id="单个用户-4.2">单个用户 </a></span></li></ul></li><li><span><a href="#环境变量" data-toc-modified-id="环境变量-5">环境变量 </a></span></li><li><span><a href="#TerminalMultiplexers:Screen&amp;Tmux" data-toc-modified-id="TerminalMultiplexers:Screen&amp;Tmux-6">TerminalMultiplexers:Screen&amp;Tmux</a></span></li><li><span><a href="#SSH&amp;MOSH" data-toc-modified-id="SSH&amp;MOSH-7">SSH&amp;MOSH</a></span></li><li><span><a href="#GIT" data-toc-modified-id="GIT-8">GIT</a></span></li><li><span><a href="#命令行工具" data-toc-modified-id="命令行工具-9">命令行工具 </a></span></li><li><span><a href="#查找搜索" data-toc-modified-id="查找搜索-10">查找搜索 </a></span></li><li><span><a href="#复制粘贴" data-toc-modified-id="复制粘贴-11">复制粘贴 </a></span></li><li><span><a href="#版本控制及包管理" data-toc-modified-id="版本控制及包管理-12">版本控制及包管理 </a></span></li><li><span><a href="#数据科学常用包" data-toc-modified-id="数据科学常用包-13">数据科学常用包 </a></span></li><li><span><a href="#配置工具" data-toc-modified-id="配置工具-14">配置工具 </a></span></li><li><span><a href="#数据存储及快速查询" data-toc-modified-id="数据存储及快速查询-15">数据存储及快速查询 </a></span></li><li><span><a href="#CUDA-&amp;-CUDNN" data-toc-modified-id="CUDA-&amp;-CUDNN-16">CUDA &amp; CUDNN</a></span></li><li><span><a href="#IDE" data-toc-modified-id="IDE-17">IDE</a></span></li><li><span><a href="#代码检查" data-toc-modified-id="代码检查-18">代码检查 </a></span></li><li><span><a href="#代码测试" data-toc-modified-id="代码测试-19">代码测试 </a></span></li><li><span><a href="#代码部署" data-toc-modified-id="代码部署-20">代码部署 </a></span></li><li><span><a href="#性能" data-toc-modified-id="性能-21">性能 </a></span></li><li><span><a href="#工程" data-toc-modified-id="工程-22">工程 </a></span></li><li><span><a href="#设计五原则" data-toc-modified-id="设计五原则-23">设计五原则 </a></span></li><li><span><a href="#刷题" data-toc-modified-id="刷题-24">刷题 </a></span></li><li><span><a href="#论文、会议及期刊" data-toc-modified-id="论文、会议及期刊-25">论文、会议及期刊 </a></span></li><li><span><a href="#学习资源" data-toc-modified-id="学习资源-26">学习资源 </a></span><ul class="toc-item"><li><span><a href="#Pytorch" data-toc-modified-id="Pytorch-26.1">Pytorch</a></span></li><li><span><a href="#Tensorflow" data-toc-modified-id="Tensorflow-26.2">Tensorflow</a></span></li></ul></li><li><span><a href="#其他" data-toc-modified-id="其他-27">其他 </a></span></li><li><span><a href="#致谢" data-toc-modified-id="致谢-28">致谢 </a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#更改源" data-toc-modified-id="更改源-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>更改源 </a></span></li><li><span><a href="#Terminal" data-toc-modified-id="Terminal-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Terminal</a></span></li><li><span><a href="#系统配置文件" data-toc-modified-id="系统配置文件-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>系统配置文件 </a></span><ul class="toc-item"><li><span><a href="#所有用户" data-toc-modified-id="所有用户-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>所有用户 </a></span></li><li><span><a href="#单个用户" data-toc-modified-id="单个用户-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>单个用户 </a></span></li></ul></li><li><span><a href="#环境变量" data-toc-modified-id="环境变量-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>环境变量 </a></span></li><li><span><a href="#TerminalMultiplexers" data-toc-modified-id="TerminalMultiplexers-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>TerminalMultiplexers</a></span></li><li><span><a href="#SSH" data-toc-modified-id="SSH-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>SSH</a></span></li><li><span><a href="#GIT" data-toc-modified-id="GIT-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>GIT</a></span></li><li><span><a href="#命令行工具" data-toc-modified-id="命令行工具-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>命令行工具 </a></span></li><li><span><a href="#查找搜索" data-toc-modified-id="查找搜索-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>查找搜索 </a></span></li><li><span><a href="#复制粘贴" data-toc-modified-id="复制粘贴-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>复制粘贴 </a></span></li><li><span><a href="#版本控制及包管理" data-toc-modified-id="版本控制及包管理-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>版本控制及包管理 </a></span></li><li><span><a href="#数据科学常用包" data-toc-modified-id="数据科学常用包-12"><span class="toc-item-num">12&nbsp;&nbsp;</span>数据科学常用包 </a></span></li><li><span><a href="#配置工具" data-toc-modified-id="配置工具-13"><span class="toc-item-num">13&nbsp;&nbsp;</span>配置工具 </a></span></li><li><span><a href="#数据存储及快速查询" data-toc-modified-id="数据存储及快速查询-14"><span class="toc-item-num">14&nbsp;&nbsp;</span>数据存储及快速查询 </a></span></li><li><span><a href="#CUDA" data-toc-modified-id="CUDA-15"><span class="toc-item-num">15&nbsp;&nbsp;</span>CUDA</a></span></li><li><span><a href="#IDE" data-toc-modified-id="IDE-16"><span class="toc-item-num">16&nbsp;&nbsp;</span>IDE</a></span></li><li><span><a href="#代码检查" data-toc-modified-id="代码检查-17"><span class="toc-item-num">17&nbsp;&nbsp;</span>代码检查 </a></span></li><li><span><a href="#代码测试" data-toc-modified-id="代码测试-18"><span class="toc-item-num">18&nbsp;&nbsp;</span>代码测试 </a></span></li><li><span><a href="#代码部署" data-toc-modified-id="代码部署-19"><span class="toc-item-num">19&nbsp;&nbsp;</span>代码部署 </a></span></li><li><span><a href="#性能" data-toc-modified-id="性能-20"><span class="toc-item-num">20&nbsp;&nbsp;</span>性能 </a></span></li><li><span><a href="#工程" data-toc-modified-id="工程-21"><span class="toc-item-num">21&nbsp;&nbsp;</span>工程 </a></span></li><li><span><a href="#设计五原则" data-toc-modified-id="设计五原则-22"><span class="toc-item-num">22&nbsp;&nbsp;</span>设计五原则 </a></span></li><li><span><a href="#刷题" data-toc-modified-id="刷题-23"><span class="toc-item-num">23&nbsp;&nbsp;</span>刷题 </a></span></li><li><span><a href="#论文、会议及期刊" data-toc-modified-id="论文、会议及期刊-24"><span class="toc-item-num">24&nbsp;&nbsp;</span>论文、会议及期刊 </a></span></li><li><span><a href="#学习资源" data-toc-modified-id="学习资源-25"><span class="toc-item-num">25&nbsp;&nbsp;</span>学习资源 </a></span><ul class="toc-item"><li><span><a href="#Pytorch" data-toc-modified-id="Pytorch-25.1"><span class="toc-item-num">25.1&nbsp;&nbsp;</span>Pytorch</a></span></li><li><span><a href="#Tensorflow" data-toc-modified-id="Tensorflow-25.2"><span class="toc-item-num">25.2&nbsp;&nbsp;</span>Tensorflow</a></span></li></ul></li><li><span><a href="#数据" data-toc-modified-id="数据-26"><span class="toc-item-num">26&nbsp;&nbsp;</span>数据 </a></span><ul class="toc-item"><li><span><a href="#爬虫" data-toc-modified-id="爬虫-26.1"><span class="toc-item-num">26.1&nbsp;&nbsp;</span>爬虫 </a></span></li></ul></li><li><span><a href="#小工具" data-toc-modified-id="小工具-27"><span class="toc-item-num">27&nbsp;&nbsp;</span>小工具 </a></span></li><li><span><a href="#其他" data-toc-modified-id="其他-28"><span class="toc-item-num">28&nbsp;&nbsp;</span>其他 </a></span></li><li><span><a href="#致谢" data-toc-modified-id="致谢-29"><span class="toc-item-num">29&nbsp;&nbsp;</span>致谢 </a></span></li></ul></div>
+
 ## 更改源
 
 更改 Linux 系统软件源，让下载个更新更快。常用源有以下几个：
@@ -50,7 +48,7 @@ sudo apt-get update
 - [LUG's repo file generator](https://mirrors.ustc.edu.cn/repogen/)
 
 
-## Terminal&Bash
+## Terminal
 
 - Terminal: [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)
 - Bash: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)，需要先安装 Zsh: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
@@ -113,12 +111,12 @@ Mac OS X|	`DYLD_LIBRARY_PATH`
 AIX|	`LIBPATH`
 
 
-参考至：  
+参考至： 
 
   - [LIBRARY\_PATH 和 LD\_LIBRARY\_PATH 环境变量的区别 - 大圆那些事 - 博客园](http://www.cnblogs.com/panfeng412/archive/2011/10/20/library_path-and-ld_library_path.html)  
   - [LD\_LIBRARY\_PATH 与 LIBPATH - russle 的专栏 - CSDN 博客](http://blog.csdn.net/russle/article/details/7228462)
 
-## TerminalMultiplexers:Screen&Tmux
+## TerminalMultiplexers
 
 远程会话窗口管理器，就是让你的远程连接（SSH）不中断，退出后下次登录时程序依然在运行。具体可参考：
 
@@ -136,7 +134,7 @@ AIX|	`LIBPATH`
 - 二者使用对比：[Terminal Multiplexers: Screen, Tmux - Hyperpolyglot](http://hyperpolyglot.org/multiplexers)
 
 
-## SSH&MOSH
+## SSH
 
 - [SSH 原理与运用（一）：远程登录 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html)
 - 优化 SSH（断网不影响连接）：
@@ -299,7 +297,7 @@ AIX|	`LIBPATH`
 - 数据存储：[leveldb 资料整理 - 区块链知识库](http://lib.csdn.net/article/blockchain/46144)
 - 数据结构：[Bloom filter - Wikiwand](https://www.wikiwand.com/en/Bloom_filter)
 
-## CUDA & CUDNN
+## CUDA
 
 强烈建议看官方文档，不要看各类教程。
 
@@ -366,18 +364,18 @@ AIX|	`LIBPATH`
 
 主要分单元测试和集成测试。
 
-- 和 github 做持续集成的服务：[Continuous Integration and Delivery - CircleCI](https://circleci.com/)  
-- Python 写测试的框架，可以参考：[pytest: helps you write better programs — pytest documentation](https://docs.pytest.org/en/latest/)  
+- 和 github 做持续集成的服务：[Continuous Integration and Delivery - CircleCI](https://circleci.com/) 
+- Python 写测试的框架，可以参考：[pytest: helps you write better programs — pytest documentation](https://docs.pytest.org/en/latest/) 
 
 
-## 代码部署  
+## 代码部署
 
 - GitHub 至少两个分支：dev 和 master，均为通过测试的正式版
   - master 为发布版
   - dev 为开发版
 - 自动触发：[Watchman A file watching service | Watchman](https://facebook.github.io/watchman/)
 
-## 性能  
+## 性能
 
 - 尽量使用 Numpy 或 Pandas，因为它们底层是 C
 - Numpy 计算深度学习：[tfdeploy](https://github.com/riga/tfdeploy)
@@ -386,9 +384,10 @@ AIX|	`LIBPATH`
   - Cache 是数据库常用的操作
 - [Boost.Python Tutorial - 1.65.1](http://www.boost.org/doc/libs/1_65_1/libs/python/doc/html/tutorial/index.html)
 - [Tutorials — Cython](http://docs.cython.org/en/latest/src/tutorial/)
-
 - [ray-project/ray: A system for parallel and distributed Python that unifies the ML ecosystem.](https://github.com/ray-project/ray)
 - [scikit-build/ninja-python-distributions: This project provides a \`setup.py\` script that build Ninja Python wheels.](https://github.com/scikit-build/ninja-python-distributions)
+
+
 
 ## 工程
 
@@ -424,7 +423,7 @@ AIX|	`LIBPATH`
   - [apache/thrift: Mirror of Apache Thrift](https://github.com/apache/thrift)
   - [JSON-RPC 2.0 Specification](http://www.jsonrpc.org/specification)
   - [zerorpc](http://www.zerorpc.io/)
-- RestfulAPI  
+- RestfulAPI
   - [timothycrosley/hug: Embrace the APIs of the future](https://github.com/timothycrosley/hug)
   - [sseemayer/hug\_middleware_cors](https://github.com/sseemayer/hug_middleware_cors)
 - 工程架构参考
@@ -435,9 +434,9 @@ AIX|	`LIBPATH`
 - [High Performance Browser Networking (豆瓣)](https://book.douban.com/subject/21866396/?dt_platform=com.douban.activity.wechat_friends&dt_dapp=1)
 
 
-## 设计五原则  
+## 设计五原则
 
-- SOLID（单一功能、开闭原则、里氏替换、接口隔离以及依赖反转）  
+- SOLID（单一功能、开闭原则、里氏替换、接口隔离以及依赖反转）
 
 
 首字母|指代| 概念
@@ -448,23 +447,23 @@ L|	里氏替换原则	|程序中的对象应该是可以在不改变程序正确
 I|	接口隔离原则|	多个特定客户端接口要好于一个宽泛用途的接口
 D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，两者都应该依赖于抽象接口；抽象接口不应该依赖于具体实现，而具体实现则应该依赖于抽象接口。
 
-来源：[如何在 Python 里应用 SOLID 原则 | 阿驹](http://zqpythonic.qiniucdn.com/data/20170115163942/index.html)  
+来源：[如何在 Python 里应用 SOLID 原则 | 阿驹](http://zqpythonic.qiniucdn.com/data/20170115163942/index.html) 
 
 
-- 当考虑需要什么类以及类要有什么方法时，应该尝试下面的方法。  
+- 当考虑需要什么类以及类要有什么方法时，应该尝试下面的方法。 
 
-  - （1）写下问题的描述（程序要做什么），把所有名词、动词和形容词加下划线。  
-  - （2）对于所有名词，用作可能的类。  
-  - （3）对于所有动词，用作可能的方法。  
-  - （4）对于所有形容词，用作可能的特性。  
-  - （5）把所有方法和特性分配到类。  
+  - （1）写下问题的描述（程序要做什么），把所有名词、动词和形容词加下划线。 
+  - （2）对于所有名词，用作可能的类。 
+  - （3）对于所有动词，用作可能的方法。 
+  - （4）对于所有形容词，用作可能的特性。 
+  - （5）把所有方法和特性分配到类。 
 
-  现在已经有了面向对象模型的草图了。还可以考虑类和对象之间的关系（比如继承或协作）以及它们的作用，可以用以下步骤精炼模型。  
+  现在已经有了面向对象模型的草图了。还可以考虑类和对象之间的关系（比如继承或协作）以及它们的作用，可以用以下步骤精炼模型。 
   
   - （1）写下（或者想象）一系列的使用实例，也就是程序应用时的场景，试着包括所有的功能。  
   - （2）一步步考虑每个使用实例，保证模型包括所有需要的东西。如果有些遗漏的话就添加进来。如果某处不太正确则改正。继续，直到满意为止。
 
-来源：[如何设计好一个 python 的类？ - 知乎](https://www.zhihu.com/question/65622767/answer/233023480)  
+来源：[如何设计好一个 python 的类？ - 知乎](https://www.zhihu.com/question/65622767/answer/233023480) 
 
 - [践行这五条原则，构建优秀的 Python 包 | 编程派 | Coding Python](http://codingpy.com/article/5-simple-rules-for-building-great-python-packages/)
 
@@ -473,7 +472,7 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 
 - 在线编程练习
   - [LeetCode](https://leetcode.com/)
-  - [hihoCoder](http://hihocoder.com/)  
+  - [hihoCoder](http://hihocoder.com/) 
   - [Train with Programming Challenges/Kata | Codewars](https://www.codewars.com/)
   - [LintCode](http://lintcode.com/)：在线刷题网站，汇集了各大公司的算法面试题。有阶梯式训练题库，帮你选好应该刷的题目，特别适合小白和懒人。评测数独很快，最大的中文在线题库。
   - geeksforgeeks.org —— 据说是印度人搞的刷题网站，上面有很多公司的面试题，也有论坛。不过上面都是英文，估计很多印度人在上面放面经，科科。
