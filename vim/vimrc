@@ -1,0 +1,60 @@
+" Author: Yam
+" Version: 0.1
+" Email: haoshaochun@gmail.com
+" Blog: https://yam.gift
+" LastModify: 20201118
+
+
+"===========================
+" Basic
+"===========================
+
+set history=500
+
+filetype plugin on
+filetype indent on
+
+let mapleader = ","
+
+
+
+"===========================
+" Edit
+"===========================
+
+set shiftwidth=4
+set tabstop=4
+set smarttab
+set expandtab "space instead of tab
+set ai "Auto indent
+set si "Smart indent
+
+
+
+"===========================
+" Display
+"===========================
+
+set ruler
+set hlsearch
+
+syntax enable
+
+
+"===========================
+" Plugin
+"===========================
+
+call plug#begin('~/.vim/bundle')
+
+Plug 'zxqfl/tabnine-vim'
+Plug 'jiangmiao/auto-pairs'
+
+call plug#end()
+
+
+
+
+
+
+
