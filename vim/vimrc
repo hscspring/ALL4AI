@@ -45,16 +45,10 @@ syntax enable
 " Plugin
 "===========================
 
-call plug#begin('~/.vim/bundle')
+" call plug#begin('~/.vim/bundle')
 
-Plug 'zxqfl/tabnine-vim'
-Plug 'jiangmiao/auto-pairs'
+" call plug#end()
 
-call plug#end()
-
-
-
-
-
-
+execute pathogen#infect()
+colorscheme molokai
 
