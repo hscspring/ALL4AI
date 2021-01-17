@@ -168,7 +168,7 @@ AIX|	`LIBPATH`
 
 - [20 Command Line Tools to Monitor Linux Performance](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/)
 - [13 Linux Performance Monitoring Tools - Part 2](https://www.tecmint.com/linux-performance-monitoring-tools/)
-- 命令行使用代理：[使用 shadowsocks 及 ProxyChains-NG 实现终端 (iterm) 下代理](https://segmentfault.com/a/1190000004607285)
+- 命令行使用代理：[shadowsocks及 ProxyChains-NG 实现终端(iterm2)下代理](https://www.textarea.com/mactive/shadowsocks-ji-proxychains-ng-shixian-zhongduan-iterm2-xia-daili-639/)
 - 快速 CD：  
   - [wting/autojump: A cd command](https://github.com/wting/autojump)
   - [rupa/z: z - jump around](https://github.com/rupa/z)
@@ -332,6 +332,7 @@ AIX|	`LIBPATH`
     - [macos - Failed to initialize color list](https://stackoverflow.com/questions/52521587/emacs-error-when-i-call-it-in-the-terminal)
     - iTerm Alt Metakey: [macos - Bash keyboard shortcuts in iTerm like Alt+d and Alt+f - Stack Overflow](https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf)
   - 快捷键：
+      - [emacs cheat sheet](http://www.rgrjr.com/emacs/emacs_cheat.html)
       - [Emacs Keys Basics](http://ergoemacs.org/emacs/emacs_keys_basics.html)
 - Vim
   - 技巧：
@@ -346,6 +347,7 @@ AIX|	`LIBPATH`
       - [vim 插件管理器：Vundle 的介绍及安装](http://blog.csdn.net/zhangpower1993/article/details/52184581)
       - [Vim 与 Python 真乃天作之合](http://codingpy.com/article/vim-and-python-match-in-heaven/)
   - 快捷键：
+      - [Vim Cheat Sheet](https://vim.rtorr.com/)
       - [vi 與 vim 的指令整理 | Vixual](http://www.vixual.net/blog/archives/234)
       - [給程式設計師的 Vim 入門圖解說明 | vgod's blog](http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/)
 
