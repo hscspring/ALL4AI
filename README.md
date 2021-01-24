@@ -3,7 +3,6 @@
 > 个人工具箱，工具 Python 居多。
 
 
-* auto-gen TOC:
 {:toc}
 
 ## 更改源
