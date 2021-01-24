@@ -1,12 +1,14 @@
 # AI 工具箱
 
+> 个人工具箱，工具 Python 居多。
+
 ## 目录
 
-<div class="toc"><ul class="toc-item"><li><span><a href="#更改源" data-toc-modified-id="更改源-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>更改源 </a></span></li><li><span><a href="#Terminal" data-toc-modified-id="Terminal-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Terminal</a></span></li><li><span><a href="#系统配置文件" data-toc-modified-id="系统配置文件-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>系统配置文件 </a></span><ul class="toc-item"><li><span><a href="#所有用户" data-toc-modified-id="所有用户-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>所有用户 </a></span></li><li><span><a href="#单个用户" data-toc-modified-id="单个用户-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>单个用户 </a></span></li></ul></li><li><span><a href="#环境变量" data-toc-modified-id="环境变量-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>环境变量 </a></span></li><li><span><a href="#TerminalMultiplexers" data-toc-modified-id="TerminalMultiplexers-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>TerminalMultiplexers</a></span></li><li><span><a href="#SSH" data-toc-modified-id="SSH-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>SSH</a></span></li><li><span><a href="#GIT" data-toc-modified-id="GIT-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>GIT</a></span></li><li><span><a href="#命令行工具" data-toc-modified-id="命令行工具-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>命令行工具 </a></span></li><li><span><a href="#查找搜索" data-toc-modified-id="查找搜索-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>查找搜索 </a></span></li><li><span><a href="#复制粘贴" data-toc-modified-id="复制粘贴-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>复制粘贴 </a></span></li><li><span><a href="#版本控制及包管理" data-toc-modified-id="版本控制及包管理-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>版本控制及包管理 </a></span></li><li><span><a href="#数据科学常用包" data-toc-modified-id="数据科学常用包-12"><span class="toc-item-num">12&nbsp;&nbsp;</span>数据科学常用包 </a></span></li><li><span><a href="#配置工具" data-toc-modified-id="配置工具-13"><span class="toc-item-num">13&nbsp;&nbsp;</span>配置工具 </a></span></li><li><span><a href="#数据存储及快速查询" data-toc-modified-id="数据存储及快速查询-14"><span class="toc-item-num">14&nbsp;&nbsp;</span>数据存储及快速查询 </a></span></li><li><span><a href="#CUDA" data-toc-modified-id="CUDA-15"><span class="toc-item-num">15&nbsp;&nbsp;</span>CUDA</a></span></li><li><span><a href="#IDE" data-toc-modified-id="IDE-16"><span class="toc-item-num">16&nbsp;&nbsp;</span>IDE</a></span></li><li><span><a href="#代码检查" data-toc-modified-id="代码检查-17"><span class="toc-item-num">17&nbsp;&nbsp;</span>代码检查 </a></span></li><li><span><a href="#代码测试" data-toc-modified-id="代码测试-18"><span class="toc-item-num">18&nbsp;&nbsp;</span>代码测试 </a></span></li><li><span><a href="#代码部署" data-toc-modified-id="代码部署-19"><span class="toc-item-num">19&nbsp;&nbsp;</span>代码部署 </a></span></li><li><span><a href="#性能" data-toc-modified-id="性能-20"><span class="toc-item-num">20&nbsp;&nbsp;</span>性能 </a></span></li><li><span><a href="#工程" data-toc-modified-id="工程-21"><span class="toc-item-num">21&nbsp;&nbsp;</span>工程 </a></span></li><li><span><a href="#设计五原则" data-toc-modified-id="设计五原则-22"><span class="toc-item-num">22&nbsp;&nbsp;</span>设计五原则 </a></span></li><li><span><a href="#刷题" data-toc-modified-id="刷题-23"><span class="toc-item-num">23&nbsp;&nbsp;</span>刷题 </a></span></li><li><span><a href="#论文、会议及期刊" data-toc-modified-id="论文、会议及期刊-24"><span class="toc-item-num">24&nbsp;&nbsp;</span>论文、会议及期刊 </a></span></li><li><span><a href="#学习资源" data-toc-modified-id="学习资源-25"><span class="toc-item-num">25&nbsp;&nbsp;</span>学习资源 </a></span><ul class="toc-item"><li><span><a href="#Pytorch" data-toc-modified-id="Pytorch-25.1"><span class="toc-item-num">25.1&nbsp;&nbsp;</span>Pytorch</a></span></li><li><span><a href="#Tensorflow" data-toc-modified-id="Tensorflow-25.2"><span class="toc-item-num">25.2&nbsp;&nbsp;</span>Tensorflow</a></span></li></ul></li><li><span><a href="#数据" data-toc-modified-id="数据-26"><span class="toc-item-num">26&nbsp;&nbsp;</span>数据 </a></span><ul class="toc-item"><li><span><a href="#爬虫" data-toc-modified-id="爬虫-26.1"><span class="toc-item-num">26.1&nbsp;&nbsp;</span>爬虫 </a></span></li></ul></li><li><span><a href="#小工具" data-toc-modified-id="小工具-27"><span class="toc-item-num">27&nbsp;&nbsp;</span>小工具 </a></span></li><li><span><a href="#其他" data-toc-modified-id="其他-28"><span class="toc-item-num">28&nbsp;&nbsp;</span>其他 </a></span></li><li><span><a href="#致谢" data-toc-modified-id="致谢-29"><span class="toc-item-num">29&nbsp;&nbsp;</span>致谢 </a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#更改源" data-toc-modified-id="更改源-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>更改源</a></span></li><li><span><a href="#Terminal" data-toc-modified-id="Terminal-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Terminal</a></span></li><li><span><a href="#系统配置文件" data-toc-modified-id="系统配置文件-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>系统配置文件</a></span><ul class="toc-item"><li><span><a href="#所有用户" data-toc-modified-id="所有用户-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>所有用户</a></span></li><li><span><a href="#单个用户" data-toc-modified-id="单个用户-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>单个用户</a></span></li></ul></li><li><span><a href="#环境变量" data-toc-modified-id="环境变量-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>环境变量</a></span></li><li><span><a href="#TerminalMultiplexers" data-toc-modified-id="TerminalMultiplexers-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>TerminalMultiplexers</a></span></li><li><span><a href="#SSH" data-toc-modified-id="SSH-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>SSH</a></span></li><li><span><a href="#GIT" data-toc-modified-id="GIT-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>GIT</a></span></li><li><span><a href="#命令行工具" data-toc-modified-id="命令行工具-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>命令行工具</a></span></li><li><span><a href="#查找搜索" data-toc-modified-id="查找搜索-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>查找搜索</a></span></li><li><span><a href="#复制粘贴" data-toc-modified-id="复制粘贴-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>复制粘贴</a></span></li><li><span><a href="#版本控制及包管理" data-toc-modified-id="版本控制及包管理-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>版本控制及包管理</a></span></li><li><span><a href="#数据科学常用包" data-toc-modified-id="数据科学常用包-12"><span class="toc-item-num">12&nbsp;&nbsp;</span>数据科学常用包</a></span></li><li><span><a href="#配置工具" data-toc-modified-id="配置工具-13"><span class="toc-item-num">13&nbsp;&nbsp;</span>配置工具</a></span></li><li><span><a href="#数据存储及快速查询" data-toc-modified-id="数据存储及快速查询-14"><span class="toc-item-num">14&nbsp;&nbsp;</span>数据存储及快速查询</a></span></li><li><span><a href="#CUDA" data-toc-modified-id="CUDA-15"><span class="toc-item-num">15&nbsp;&nbsp;</span>CUDA</a></span></li><li><span><a href="#IDE" data-toc-modified-id="IDE-16"><span class="toc-item-num">16&nbsp;&nbsp;</span>IDE</a></span><ul class="toc-item"><li><span><a href="#SublimeText:" data-toc-modified-id="SublimeText:-16.1"><span class="toc-item-num">16.1&nbsp;&nbsp;</span>SublimeText:</a></span></li><li><span><a href="#Emacs" data-toc-modified-id="Emacs-16.2"><span class="toc-item-num">16.2&nbsp;&nbsp;</span>Emacs</a></span></li><li><span><a href="#Vim" data-toc-modified-id="Vim-16.3"><span class="toc-item-num">16.3&nbsp;&nbsp;</span>Vim</a></span></li></ul></li><li><span><a href="#代码检查" data-toc-modified-id="代码检查-17"><span class="toc-item-num">17&nbsp;&nbsp;</span>代码检查</a></span></li><li><span><a href="#代码测试" data-toc-modified-id="代码测试-18"><span class="toc-item-num">18&nbsp;&nbsp;</span>代码测试</a></span></li><li><span><a href="#代码部署" data-toc-modified-id="代码部署-19"><span class="toc-item-num">19&nbsp;&nbsp;</span>代码部署</a></span></li><li><span><a href="#性能" data-toc-modified-id="性能-20"><span class="toc-item-num">20&nbsp;&nbsp;</span>性能</a></span></li><li><span><a href="#Python-技能" data-toc-modified-id="Python-技能-21"><span class="toc-item-num">21&nbsp;&nbsp;</span>Python 技能</a></span><ul class="toc-item"><li><span><a href="#Resources" data-toc-modified-id="Resources-21.1"><span class="toc-item-num">21.1&nbsp;&nbsp;</span>Resources</a></span></li><li><span><a href="#Basic" data-toc-modified-id="Basic-21.2"><span class="toc-item-num">21.2&nbsp;&nbsp;</span>Basic</a></span></li><li><span><a href="#Trick" data-toc-modified-id="Trick-21.3"><span class="toc-item-num">21.3&nbsp;&nbsp;</span>Trick</a></span></li><li><span><a href="#State" data-toc-modified-id="State-21.4"><span class="toc-item-num">21.4&nbsp;&nbsp;</span>State</a></span></li><li><span><a href="#Pipe" data-toc-modified-id="Pipe-21.5"><span class="toc-item-num">21.5&nbsp;&nbsp;</span>Pipe</a></span></li><li><span><a href="#FP" data-toc-modified-id="FP-21.6"><span class="toc-item-num">21.6&nbsp;&nbsp;</span>FP</a></span></li></ul></li><li><span><a href="#数据结构和算法" data-toc-modified-id="数据结构和算法-22"><span class="toc-item-num">22&nbsp;&nbsp;</span>数据结构和算法</a></span></li><li><span><a href="#AI" data-toc-modified-id="AI-23"><span class="toc-item-num">23&nbsp;&nbsp;</span>AI</a></span><ul class="toc-item"><li><span><a href="#Deploy" data-toc-modified-id="Deploy-23.1"><span class="toc-item-num">23.1&nbsp;&nbsp;</span>Deploy</a></span></li><li><span><a href="#Toolkit" data-toc-modified-id="Toolkit-23.2"><span class="toc-item-num">23.2&nbsp;&nbsp;</span>Toolkit</a></span></li><li><span><a href="#DataAnnotation" data-toc-modified-id="DataAnnotation-23.3"><span class="toc-item-num">23.3&nbsp;&nbsp;</span>DataAnnotation</a></span></li><li><span><a href="#DeepLearning" data-toc-modified-id="DeepLearning-23.4"><span class="toc-item-num">23.4&nbsp;&nbsp;</span>DeepLearning</a></span></li><li><span><a href="#MachineLearning" data-toc-modified-id="MachineLearning-23.5"><span class="toc-item-num">23.5&nbsp;&nbsp;</span>MachineLearning</a></span></li></ul></li><li><span><a href="#工程" data-toc-modified-id="工程-24"><span class="toc-item-num">24&nbsp;&nbsp;</span>工程</a></span><ul class="toc-item"><li><span><a href="#Design" data-toc-modified-id="Design-24.1"><span class="toc-item-num">24.1&nbsp;&nbsp;</span>Design</a></span></li><li><span><a href="#Test" data-toc-modified-id="Test-24.2"><span class="toc-item-num">24.2&nbsp;&nbsp;</span>Test</a></span></li><li><span><a href="#Style" data-toc-modified-id="Style-24.3"><span class="toc-item-num">24.3&nbsp;&nbsp;</span>Style</a></span></li><li><span><a href="#Profile" data-toc-modified-id="Profile-24.4"><span class="toc-item-num">24.4&nbsp;&nbsp;</span>Profile</a></span></li><li><span><a href="#Command-Line" data-toc-modified-id="Command-Line-24.5"><span class="toc-item-num">24.5&nbsp;&nbsp;</span>Command Line</a></span></li><li><span><a href="#Better-Print" data-toc-modified-id="Better-Print-24.6"><span class="toc-item-num">24.6&nbsp;&nbsp;</span>Better Print</a></span></li><li><span><a href="#Safety" data-toc-modified-id="Safety-24.7"><span class="toc-item-num">24.7&nbsp;&nbsp;</span>Safety</a></span></li><li><span><a href="#Distribute" data-toc-modified-id="Distribute-24.8"><span class="toc-item-num">24.8&nbsp;&nbsp;</span>Distribute</a></span></li><li><span><a href="#FrameWork" data-toc-modified-id="FrameWork-24.9"><span class="toc-item-num">24.9&nbsp;&nbsp;</span>FrameWork</a></span></li><li><span><a href="#Boilerplate" data-toc-modified-id="Boilerplate-24.10"><span class="toc-item-num">24.10&nbsp;&nbsp;</span>Boilerplate</a></span></li><li><span><a href="#JWT" data-toc-modified-id="JWT-24.11"><span class="toc-item-num">24.11&nbsp;&nbsp;</span>JWT</a></span></li><li><span><a href="#Coroutine" data-toc-modified-id="Coroutine-24.12"><span class="toc-item-num">24.12&nbsp;&nbsp;</span>Coroutine</a></span></li><li><span><a href="#Concurrency" data-toc-modified-id="Concurrency-24.13"><span class="toc-item-num">24.13&nbsp;&nbsp;</span>Concurrency</a></span></li><li><span><a href="#Memory" data-toc-modified-id="Memory-24.14"><span class="toc-item-num">24.14&nbsp;&nbsp;</span>Memory</a></span></li><li><span><a href="#API" data-toc-modified-id="API-24.15"><span class="toc-item-num">24.15&nbsp;&nbsp;</span>API</a></span></li><li><span><a href="#RPC" data-toc-modified-id="RPC-24.16"><span class="toc-item-num">24.16&nbsp;&nbsp;</span>RPC</a></span></li><li><span><a href="#Deploy" data-toc-modified-id="Deploy-24.17"><span class="toc-item-num">24.17&nbsp;&nbsp;</span>Deploy</a></span></li><li><span><a href="#Database" data-toc-modified-id="Database-24.18"><span class="toc-item-num">24.18&nbsp;&nbsp;</span>Database</a></span></li><li><span><a href="#Project" data-toc-modified-id="Project-24.19"><span class="toc-item-num">24.19&nbsp;&nbsp;</span>Project</a></span></li><li><span><a href="#Architecture" data-toc-modified-id="Architecture-24.20"><span class="toc-item-num">24.20&nbsp;&nbsp;</span>Architecture</a></span></li><li><span><a href="#Network" data-toc-modified-id="Network-24.21"><span class="toc-item-num">24.21&nbsp;&nbsp;</span>Network</a></span></li></ul></li><li><span><a href="#Tool" data-toc-modified-id="Tool-25"><span class="toc-item-num">25&nbsp;&nbsp;</span>Tool</a></span><ul class="toc-item"><li><span><a href="#Spider" data-toc-modified-id="Spider-25.1"><span class="toc-item-num">25.1&nbsp;&nbsp;</span>Spider</a></span></li><li><span><a href="#Audio" data-toc-modified-id="Audio-25.2"><span class="toc-item-num">25.2&nbsp;&nbsp;</span>Audio</a></span></li><li><span><a href="#Chat" data-toc-modified-id="Chat-25.3"><span class="toc-item-num">25.3&nbsp;&nbsp;</span>Chat</a></span></li><li><span><a href="#Text" data-toc-modified-id="Text-25.4"><span class="toc-item-num">25.4&nbsp;&nbsp;</span>Text</a></span></li><li><span><a href="#OCR" data-toc-modified-id="OCR-25.5"><span class="toc-item-num">25.5&nbsp;&nbsp;</span>OCR</a></span></li><li><span><a href="#Task" data-toc-modified-id="Task-25.6"><span class="toc-item-num">25.6&nbsp;&nbsp;</span>Task</a></span></li><li><span><a href="#Visualization" data-toc-modified-id="Visualization-25.7"><span class="toc-item-num">25.7&nbsp;&nbsp;</span>Visualization</a></span></li><li><span><a href="#GUI" data-toc-modified-id="GUI-25.8"><span class="toc-item-num">25.8&nbsp;&nbsp;</span>GUI</a></span></li><li><span><a href="#Logic" data-toc-modified-id="Logic-25.9"><span class="toc-item-num">25.9&nbsp;&nbsp;</span>Logic</a></span></li></ul></li><li><span><a href="#设计五原则" data-toc-modified-id="设计五原则-26"><span class="toc-item-num">26&nbsp;&nbsp;</span>设计五原则</a></span></li><li><span><a href="#刷题" data-toc-modified-id="刷题-27"><span class="toc-item-num">27&nbsp;&nbsp;</span>刷题</a></span></li><li><span><a href="#论文、会议及期刊" data-toc-modified-id="论文、会议及期刊-28"><span class="toc-item-num">28&nbsp;&nbsp;</span>论文、会议及期刊</a></span></li><li><span><a href="#学习资源" data-toc-modified-id="学习资源-29"><span class="toc-item-num">29&nbsp;&nbsp;</span>学习资源</a></span><ul class="toc-item"><li><span><a href="#Pytorch" data-toc-modified-id="Pytorch-29.1"><span class="toc-item-num">29.1&nbsp;&nbsp;</span>Pytorch</a></span></li><li><span><a href="#Tensorflow" data-toc-modified-id="Tensorflow-29.2"><span class="toc-item-num">29.2&nbsp;&nbsp;</span>Tensorflow</a></span></li></ul></li><li><span><a href="#数据" data-toc-modified-id="数据-30"><span class="toc-item-num">30&nbsp;&nbsp;</span>数据</a></span><ul class="toc-item"><li><span><a href="#爬虫" data-toc-modified-id="爬虫-30.1"><span class="toc-item-num">30.1&nbsp;&nbsp;</span>爬虫</a></span></li></ul></li><li><span><a href="#小工具" data-toc-modified-id="小工具-31"><span class="toc-item-num">31&nbsp;&nbsp;</span>小工具</a></span></li><li><span><a href="#其他" data-toc-modified-id="其他-32"><span class="toc-item-num">32&nbsp;&nbsp;</span>其他</a></span></li><li><span><a href="#致谢" data-toc-modified-id="致谢-33"><span class="toc-item-num">33&nbsp;&nbsp;</span>致谢</a></span></li></ul></div>
 
 ## 更改源
 
-更改 Linux 系统软件源，让下载个更新更快。常用源有以下几个：
+更改 Linux 系统软件源：
 
 - 阿里云镜像 http://mirrors.aliyun.com
 - 网易镜像 http://mirrors.163.com
@@ -37,7 +39,7 @@ sudo apt-get update
 ```
 
 
-参考至（好网站）：  
+参考至：  
 
 - [修改软件源为国内加速镜像 - 技术分享 - 社区 - 好雨，让云落地](https://t.goodrain.com/t/topic/236)
 - [LUG's repo file generator](https://mirrors.ustc.edu.cn/repogen/)
@@ -117,9 +119,9 @@ AIX|	`LIBPATH`
 
 
 - [使用 screen 管理你的远程会话](https://www.ibm.com/developerworks/cn/linux/l-cn-screen/index.html)。简单使用：
-  - 创建：`screen -S name（随便输一个名字）`
+  - 创建：`screen -S [name]`
   - 查看：`screen -ls`
-  - 进入：`screen -r name（随便输的那个名字）`
+  - 进入：`screen -r [name]`
   - 退回到命令行，让程序在 screen 后台自动运行：`Control + a + d`
 - 更强大的 Tmux：
   - [tmuxp — tmuxp 1.3.5 documentation](https://tmuxp.git-pull.com/en/latest/)
@@ -218,14 +220,16 @@ AIX|	`LIBPATH`
 - Python 包管理：[pip — pip 9.0.1 documentation](https://pip.pypa.io/en/stable/)
   - 更换源：[Mac OX 设置 pip 国内镜像，下载速度超快 - 简书](https://www.jianshu.com/p/e993bdfff7b3)
   - 多个源：[pip：指定多个源 / 内部源 - CSDN 博客](http://blog.csdn.net/K_Zombie/article/details/50478577)
-- **推荐**的 Python 包**开发**管理工具：[Pipenv: Python Dev Workflow for Humans](https://docs.pipenv.org/)
+- **推荐**的 Python 包**开发**管理工具：
+    - [Poetry - Python dependency management and packaging made easy.](https://python-poetry.org/)
+    - [Pipenv: Python Dev Workflow for Humans](https://docs.pipenv.org/)
 - **推荐**的创建虚拟环境方法：`python3 -m venv [name]`，详见：[venv](https://docs.python.org/3.6/library/venv.html)
 
 **注意**：安装 `Conda` 后，`pyenv` 的虚拟环境会由 `Conda` 接管。详见：[pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)](https://github.com/pyenv/pyenv-virtualenv)。
 
 - Mac 上的 Python
 
-  经过不少的实践，在 Mac 上可以使用 homebrew 来管理 python 版本，大多数时候我们只需要一个稳定的版本就够了，具体项目中可以使用 pipenv。要安装不同的版本，方法如下：
+  经过不少的实践，在 Mac 上可以使用 homebrew 来管理 python 版本，大多数时候我们只需要一个稳定的版本就够了，具体项目中可以使用 poetry。要安装不同的版本，方法如下：
 
   - `brew unlink python` 解除现有版本的绑定
   - `brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/hash/Formula/python.rb`，其中的 hash 可在 [History for Formula/python.rb - Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core/commits/master?path%5B%5D=Formula&path%5B%5D=python.rb) 中找到，如果要的版本太旧，往前翻时并不会显示，但会有提醒告知如何查看。
@@ -234,7 +238,7 @@ AIX|	`LIBPATH`
 
   注意：只要这么操作就可以无痛使用（Mac），但如果你想更深入了解一下，下面的内容可以参考：
 
-  - brew 安装的 python 在 `/usr/local/Cellar/python/3.7.4_1/`
+  - brew 安装的 python 在 `/usr/local/Cellar/python/[version]/`
   - `site-packages` 实际位置在 `/usr/local/lib/python*`
   - brew 安装好后会在两个地方创建链接：
       - `/usr/local/opt/python/libexec/bin/`
@@ -312,39 +316,44 @@ AIX|	`LIBPATH`
 
 ## IDE
 
-- SublimeText:
-  - 设置 TAB 键为空格：`{
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-  }`
-  - pep8 插件，使用：`Ctrl + Shift + 8`
-- Emacs
-  - [GNU Emacs download - GNU Project](https://www.gnu.org/software/emacs/download.html#macos)
-  - Learn: 
-    - [Emacs is sexy](http://emacs.sexy/#learn)
-    - [一年成为 Emacs 高手 (像神一样使用编辑器) - redguardtoo 的专栏 - CSDN 博客](https://blog.csdn.net/redguardtoo/article/details/7222501)
-  - Errors on Mac:
-    - [macos - Failed to initialize color list](https://stackoverflow.com/questions/52521587/emacs-error-when-i-call-it-in-the-terminal)
-    - iTerm Alt Metakey: [macos - Bash keyboard shortcuts in iTerm like Alt+d and Alt+f - Stack Overflow](https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf)
-  - 快捷键：
-      - [emacs cheat sheet](http://www.rgrjr.com/emacs/emacs_cheat.html)
-      - [Emacs Keys Basics](http://ergoemacs.org/emacs/emacs_keys_basics.html)
-- Vim
-  - 技巧：
-      - [YBlog - Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
-      - [中文版](https://coolshell.cn/articles/5426.html)
-  - 配置：
-      - [vim-airline/vim-airline: lean & mean status/tabline for vim that's light as air](https://github.com/vim-airline/vim-airline)
-      - [wklken/k-vim: vim 配置](https://github.com/wklken/k-vim)
-      - [ma6174/vim: vim 配置文件和插件](https://github.com/ma6174/vim)
-  - 教程：  
-      - [A Good Vimrc](https://dougblack.io/words/a-good-vimrc.html)
-      - [vim 插件管理器：Vundle 的介绍及安装](http://blog.csdn.net/zhangpower1993/article/details/52184581)
-      - [Vim 与 Python 真乃天作之合](http://codingpy.com/article/vim-and-python-match-in-heaven/)
-  - 快捷键：
-      - [Vim Cheat Sheet](https://vim.rtorr.com/)
-      - [vi 與 vim 的指令整理 | Vixual](http://www.vixual.net/blog/archives/234)
-      - [給程式設計師的 Vim 入門圖解說明 | vgod's blog](http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/)
+### SublimeText:
+
+- 设置 TAB 键为空格：`{
+  "tab_size": 4,
+  "translate_tabs_to_spaces": true,
+}`
+- pep8 插件，使用：`Ctrl + Shift + 8`
+
+### Emacs
+
+- [GNU Emacs download - GNU Project](https://www.gnu.org/software/emacs/download.html#macos)
+- Learn: 
+  - [Emacs is sexy](http://emacs.sexy/#learn)
+  - [一年成为 Emacs 高手 (像神一样使用编辑器) - redguardtoo 的专栏 - CSDN 博客](https://blog.csdn.net/redguardtoo/article/details/7222501)
+- Errors on Mac:
+  - [macos - Failed to initialize color list](https://stackoverflow.com/questions/52521587/emacs-error-when-i-call-it-in-the-terminal)
+  - iTerm Alt Metakey: [macos - Bash keyboard shortcuts in iTerm like Alt+d and Alt+f - Stack Overflow](https://stackoverflow.com/questions/18923765/bash-keyboard-shortcuts-in-iterm-like-altd-and-altf)
+- 快捷键：
+    - [emacs cheat sheet](http://www.rgrjr.com/emacs/emacs_cheat.html)
+    - [Emacs Keys Basics](http://ergoemacs.org/emacs/emacs_keys_basics.html)
+
+### Vim
+
+- 技巧：
+    - [YBlog - Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+    - [中文版](https://coolshell.cn/articles/5426.html)
+- 配置：
+    - [vim-airline/vim-airline: lean & mean status/tabline for vim that's light as air](https://github.com/vim-airline/vim-airline)
+    - [wklken/k-vim: vim 配置](https://github.com/wklken/k-vim)
+    - [ma6174/vim: vim 配置文件和插件](https://github.com/ma6174/vim)
+- 教程：  
+    - [A Good Vimrc](https://dougblack.io/words/a-good-vimrc.html)
+    - [vim 插件管理器：Vundle 的介绍及安装](http://blog.csdn.net/zhangpower1993/article/details/52184581)
+    - [Vim 与 Python 真乃天作之合](http://codingpy.com/article/vim-and-python-match-in-heaven/)
+- 快捷键：
+    - [Vim Cheat Sheet](https://vim.rtorr.com/)
+    - [vi 與 vim 的指令整理 | Vixual](http://www.vixual.net/blog/archives/234)
+    - [給程式設計師的 Vim 入門圖解說明 | vgod's blog](http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/)
 
 ## 代码检查
 
@@ -384,52 +393,303 @@ AIX|	`LIBPATH`
 - [ray-project/ray: A system for parallel and distributed Python that unifies the ML ecosystem.](https://github.com/ray-project/ray)
 - [scikit-build/ninja-python-distributions: This project provides a \`setup.py\` script that build Ninja Python wheels.](https://github.com/scikit-build/ninja-python-distributions)
 
+## Python 技能
 
+### Resources
+
+- [Awesome Python](https://github.com/vinta/awesome-python)
+- [awesome-python-cn: Python 资源大全中文版](https://github.com/jobbole/awesome-python-cn)
+
+- [jackfrued/Python-100-Days: Python - 100 天从新手到大师](https://github.com/jackfrued/Python-100-Days)
+
+### Basic
+
+- [Best practices guidebook](https://github.com/realpython/python-guide)
+- [Python Cookbook 3rd](https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
+- [Python Tips](https://book.pythontips.com/en/latest/index.html)
+- [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
+- [Python 3 Module of the Week](https://pymotw.com/3/index.html)
+
+### Trick
+
+- [Python Tricks](https://github.com/brennerm/PyTricks)
+- [Python WTF](https://github.com/satwikkansal/wtfpython)
+
+### State
+
+- [FSM](https://github.com/pytransitions/transitions)
+- [State](https://pypi.org/project/state/)
+
+### Pipe
+
+- [Pipeline Abstraction](https://github.com/robdmc/consecution)
+
+### FP
+
+- [kachayev/fn.py: Functional programming](https://github.com/kachayev/fn.py)
+- [suned/pfun: Pythonic Functional Programming](https://github.com/suned/pfun)
+
+## 数据结构和算法
+
+- [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
+- [TheAlgorithms](https://github.com/TheAlgorithms/Python)
+- [Minimal Examples](https://github.com/keon/algorithms)
+- [Treelib: An efficient Implementation](https://github.com/caesar0301/treelib)
+- [Tree Library](https://github.com/c0fec0de/anytree)
+- [BTrees](https://github.com/zopefoundation/BTrees)
+- [ete: visualising trees](https://github.com/etetoolkit/ete)
+- [jciskey/pygraph: graph manipulation](https://github.com/jciskey/pygraph)
+- [Coding Interview Challenges](https://github.com/donnemartin/interactive-coding-challenges)
+- [GeneticAlgorithmsWithPython](https://github.com/handcraftsman/GeneticAlgorithmsWithPython)
+
+## AI
+
+### Deploy
+
+- [Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
+- [tensorflow/serving](https://github.com/tensorflow/serving)
+- [pytorch/serve: Model Serving on PyTorch](https://github.com/pytorch/serve)
+- [TFX: End-to-End Platform for Deploying Production ML Pipelines](https://github.com/tensorflow/tfx)
+- [Kubeflow](https://www.kubeflow.org/)
+- [mvitez/thnets: Basic library that can run networks created with Torch](https://github.com/mvitez/thnets)
+- [Serving Trained Model (aka Model API) - FloydHub Documentation](https://docs.floydhub.com/guides/serving/)
+- [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
+
+### Toolkit
+
+- [microsoft/hummingbird: Hummingbird compiles trained ML models into tensor computation for faster inference.](https://github.com/microsoft/hummingbird)
+- [PyTorchLightning/pytorch-lightning: The lightweight PyTorch wrapper for high-performance AI research. Scale your models, not the boilerplate.](https://github.com/PyTorchLightning/PyTorch-lightning)
+- [Deepfakes](https://github.com/deepfakes/faceswap)
+- [DeepFaceLab](https://github.com/iperov/DeepFaceLab)
+- [Music Generation](https://github.com/salu133445/musegan)
+- [AI_Composer](https://github.com/llSourcell/AI_Composer)
+- [ChatterBot](https://github.com/gunthercox/ChatterBot)
+- [ChatterBot](https://github.com/Decalogue/chat)
+- [GPT2 for Chinese Chitchat](https://github.com/yangjianxin1/GPT2-chitchat)
+- [FaceBook Detectron2: object detection and segmentation.](https://github.com/facebookresearch/detectron2)
+- [Open MMLab Detection Toolbox and Benchmark](https://github.com/open-mmlab/mmdetection)
+- [Open MMLab Computer Vision Foundation](https://github.com/open-mmlab/mmcv)
+- [esdalmaijer/PyGaze: eye tracking experiments](https://github.com/esdalmaijer/PyGaze)
+- [atulapra/Emotion-detection](https://github.com/atulapra/Emotion-detection)
+- [ Multi-Person Pose Estimation&Tracking System](https://github.com/MVIG-SJTU/AlphaPose)
+- [facebookresearch/dlrm: recommendation](https://github.com/facebookresearch/dlrm)
+
+### DataAnnotation
+
+- [opencv/cvat: Computer Vision Annotation Tool](https://github.com/opencv/cvat)
+- [generating training data with weak supervision](https://github.com/snorkel-team/snorkel)
+- [make basic image processing operations](https://github.com/jrosebr1/imutils)
+- [nlplab/brat: textual annotation](https://github.com/nlplab/brat)
+
+### DeepLearning
+
+- [Tensorflow Models](https://github.com/tensorflow/models)
+- [DeepLearning Papers](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+- [Awesome-Deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers)
+- [D2L ZH](https://github.com/d2l-ai/d2l-zh)
+- [D2L EN](https://github.com/d2l-ai/d2l-en)
+- [pytorch/tutorials: PyTorch tutorials.](https://github.com/pytorch/tutorials)
+- [Pytorch Examples](https://github.com/pytorch/examples)
+- [Tutorials  |  TensorFlow Core](https://www.tensorflow.org/tutorials)
+- [简单粗暴 TensorFlow 2 | A Concise Handbook of TensorFlow 2 — 简单粗暴 TensorFlow 2 0.4 beta 文档](https://tf.wiki/zh_hans/)
+- [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+- [microsoft: NLP Best Practices & Examples](https://github.com/microsoft/nlp-recipes)
+- [DeepLearning Projects](https://github.com/aymericdamien/TopDeepLearning)
+- [Ttensorflow_practice](https://github.com/princewen/tensorflow_practice)
+
+### MachineLearning
+
+- [microsoft/nni: AutoML toolkit](https://github.com/microsoft/nni)
+- [Imbalanced Learning](https://github.com/scikit-learn-contrib/imbalanced-learn)
+- [Automated Machine Learning tool using genetic programming](https://github.com/EpistasisLab/tpot)
+- [Machine learning evaluation metrics](https://github.com/benhamner/Metrics)
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 
 ## 工程
 
-- Model Serving
-  - [Kubeflow](https://www.kubeflow.org/)
-  - [tensorflow/serving](https://github.com/tensorflow/serving)
-  - [mvitez/thnets: Basic library that can run networks created with Torch](https://github.com/mvitez/thnets)
-  - [Serving Trained Model (aka Model API) - FloydHub Documentation](https://docs.floydhub.com/guides/serving/)
-  - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
-  - [PyTorch 1.0 tracing JIT and LibTorch C++ API to integrate PyTorch into NodeJS](http://blog.christianperone.com/2018/10/pytorch-1-0-tracing-jit-and-libtorch-c-api-to-integrate-pytorch-into-nodejs/)
+### Design
+
+- [toutiaoio/awesome-architecture](https://github.com/toutiaoio/awesome-architecture)
+- [System Design](https://github.com/donnemartin/system-design-primer)
+- [Design Patterns](https://github.com/faif/python-patterns)
+
+### Test
+
+- [Hypothesis: Property-Based Testing](https://github.com/HypothesisWorks/hypothesis)
+- [Plugin for providing variables to pytest](https://github.com/pytest-dev/pytest-variables)
+- [Example grpc_testing based unittest](https://github.com/alexykot/grpcio-test-example)
+- [pytest](https://docs.pytest.org/en/latest/)
+
+### Style
+
+- [Style Checker](https://github.com/PyCQA/pycodestyle)
+
+### Profile
+
+- [emeryberger/scalene: Scalene: a high-performance, high-precision CPU and memory profiler for Python](https://github.com/emeryberger/scalene)
+- [pympler/pympler: memory behavior](https://github.com/pympler/pympler)
+- [Line Profile](https://github.com/rkern/line_profiler)
+- [Distributed Asynchronous Hyperparameter Optimization](https://github.com/hyperopt/hyperopt)
+- [Memory Profiler](https://github.com/pythonprofilers/memory_profiler)
+- [PySnooper: Never use print for debugging again](https://github.com/cool-RR/PySnooper)
 
 
-- 可视化
-  - [plotly/dash: Interactive, Reactive Web Apps for Python. Dash Is Productive™](https://github.com/plotly/dash)
-- 部署
-  - [composer/docker: Composer in Docker](https://github.com/composer/docker)
-  - [Docker](https://docs.docker.com/)
-  - [Kubernetes](https://www.kubernetes.org.cn/docs)
-- python 协程库：
-  - [dabeaz/curio: Curio - The Small Coroutine Library You Were Warned About](https://github.com/dabeaz/curio)
-  - [python-trio/trio: Trio – Pythonic async I/O for humans and snake people 🐍](https://github.com/python-trio/trio)
-- web 框架
-  - [Asynchronous and non-Blocking I/O — Tornado 4.5.2 documentation](http://www.tornadoweb.org/en/stable/guide/async.html) 
-  - [channelcat/sanic: Async Python 3.5+ web server that's written to go fast](https://github.com/channelcat/sanic)
-- 数据库
-  - [MagicStack/asyncpg: A fast PostgreSQL Database Client Library for Python/asyncio.](https://github.com/MagicStack/asyncpg)
-- JWT
-  - [JSON Web Token - 在 Web 应用间安全地传递信息 - 回田园](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
-  - [Where to Store JWTs - Cookies vs HTML5 Web Storage | Stormpath](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage)
-- RPC
-  - [grpc / grpc.io](https://grpc.io/)
-      - [比起 JSON 更方便、更快速、更簡短的 Protobuf 格式](https://yami.io/protobuf/)
-  - [apache/thrift: Mirror of Apache Thrift](https://github.com/apache/thrift)
-  - [JSON-RPC 2.0 Specification](http://www.jsonrpc.org/specification)
-  - [zerorpc](http://www.zerorpc.io/)
-- RestfulAPI
-  - [timothycrosley/hug: Embrace the APIs of the future](https://github.com/timothycrosley/hug)
-  - [sseemayer/hug\_middleware_cors](https://github.com/sseemayer/hug_middleware_cors)
-- 工程架构参考
-  - 这里是比较经典的一些各公司架构：[All Time Favorites -](http://highscalability.com/all-time-favorites/)
-  - Quora 做部署的架构，比较适合小公司：[Continuous Deployment at Quora - Engineering at Quora - Quora](https://engineering.quora.com/Continuous-Deployment-at-Quora)
-  - 参考网站：[Buy/Sell Digital Currency - Coinbase](https://www.coinbase.com/?locale=en)
-  - [donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)
+### Command Line
+
+- [tiangolo/typer: Typer, build great CLIs. Easy to code. Based on Python type hints.](https://github.com/tiangolo/typer)
+
+### Better Print
+
+- [onelivesleft/PrettyErrors: Prettify Python exception output to make it legible.](https://github.com/onelivesleft/PrettyErrors/)
+- [willmcgugan/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.](https://github.com/willmcgugan/rich)
+
+### Safety
+
+- [Most advanced XSS scanner](https://github.com/s0md3v/XSStrike)
+- [SQL injection and database takeover tool](https://github.com/sqlmapproject/sqlmap)
+
+### Distribute
+
+- [Framework Ray](https://github.com/ray-project/ray)
+
+### FrameWork
+
+- [Async Sanic](https://github.com/huge-success/sanic)
+- [Websockets](https://github.com/aaugustin/websockets)
+- [tornadoweb/tornado: asynchronous](https://github.com/tornadoweb/tornado)
+
+
+
+### Boilerplate
+
+- [Django, React, Bootstrap Webpack Project Boilerplate](https://github.com/vintasoftware/django-react-boilerplate)
+- [cookiecutter: project templates](https://github.com/cookiecutter/cookiecutter)
+
+### JWT
+
+- [Django-Rest-Framework-Simplejwt.](https://github.com/SimpleJWT/django-rest-framework-simplejwt)
+- [JSON Web Token - 在 Web 应用间安全地传递信息 - 回田园](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
+- [Where to Store JWTs - Cookies vs HTML5 Web Storage | Stormpath](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage)
+
+### Coroutine
+
+- [Curio: Coroutine-Based Library for Concurrent Systems Programming](https://github.com/dabeaz/curio)
+- [python-trio/trio: Trio – Pythonic async I/O](https://github.com/python-trio/trio)
+
+
+### Concurrency
+
+- [Trio: Async Concurrency and I/O](https://github.com/python-trio/trio)
+
+### Memory
+
+- [DAFSA-based dictionary-like read-only objects](https://github.com/pytries/DAWG)
+
+### API
+
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Web API Toolkit](https://github.com/encode/apistar)
+- [pyeve/eve: REST API framework designed for human beings](https://github.com/pyeve/eve)
+- [timothycrosley/hug](https://github.com/timothycrosley/hug)
+
+### RPC
+
+- [grpc / grpc.io](https://grpc.io/)
+- [gRPC-Web implementation](https://github.com/public/sonora)
+- [grpc / grpc.io](https://grpc.io/)
+- [比起 JSON 更方便、更快速、更簡短的 Protobuf 格式](https://yami.io/protobuf/)
+- [apache/thrift: Mirror of Apache Thrift](https://github.com/apache/thrift)
+- [JSON-RPC 2.0 Specification](http://www.jsonrpc.org/specification)
+- [zerorpc](http://www.zerorpc.io/)
+
+### Deploy
+
+- [kubernetes-sigs/kustomize: Customization of kubernetes YAML configurations](https://github.com/kubernetes-sigs/kustomize)
+- [composer/docker: Composer in Docker](https://github.com/composer/docker)
+- [Docker](https://docs.docker.com/)
+- [Kubernetes](https://www.kubernetes.org.cn/docs)
+
+### Database
+
+- [MySQL Client](https://github.com/PyMySQL/PyMySQL)
+- [MySQL database connector](https://github.com/PyMySQL/mysqlclient-python)
+- [PostgreSQL Database Client](https://github.com/MagicStack/asyncpg)
+
+
+### Project
+
+- [GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+- [ A list of practical projects.](https://github.com/karan/Projects)
+
+
+### Architecture
+
+- 这里是比较经典的一些各公司架构：[All Time Favorites -](http://highscalability.com/all-time-favorites/)
+- Quora 做部署的架构，比较适合小公司：[Continuous Deployment at Quora - Engineering at Quora - Quora](https://engineering.quora.com/Continuous-Deployment-at-Quora)
+- 参考网站：[Buy/Sell Digital Currency - Coinbase](https://www.coinbase.com/?locale=en)
+- [donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)
+
+### Network
+
 - [High Performance Browser Networking (豆瓣)](https://book.douban.com/subject/21866396/?dt_platform=com.douban.activity.wechat_friends&dt_dapp=1)
 
+## Tool
+
+### Spider
+
+- [pyspider](https://github.com/binux/pyspider)
+- [scrapy examples](https://github.com/geekan/scrapy-examples)
+- [crawlers](https://github.com/evilcos/crawlers)
+- [grab: Web Scraping Framework](https://github.com/lorien/grab)
+- [Selenium](https://selenium-python.readthedocs.io/index.html)
+- [Scrapy](https://docs.scrapy.org/en/latest/index.html)
+
+### Audio
+
+- [Manipulate Audio Interface](https://github.com/jiaaro/pydub)
+- [Audio Analysis Library](https://github.com/tyiannak/pyAudioAnalysis)
+
+### Chat
+
+- [API for Wechat](https://github.com/littlecodersh/ItChat)
+- [API for Wechat](https://github.com/youfou/wxpy)
+- [API for Wechat](https://github.com/littlecodersh/itchatmp)
+
+### Text
+
+- [Chinese Convert 繁简转换](https://github.com/yichen0831/opencc-python)
+- [Hanzi Converter 繁简转换](https://github.com/berniey/hanziconv)
+- [Wikiextractor](https://github.com/attardi/wikiextractor)
+- [汉字转拼音 (pypinyin)](https://github.com/mozillazg/python-pinyin)
+
+### OCR
+
+- [breezedeus/cnocr: 基于 MXNet](https://github.com/breezedeus/cnocr)
+- [qjadud1994/Text_Detector](https://github.com/qjadud1994/Text_Detector)
+
+### Task
+
+- [Schedule](https://github.com/dbader/schedule)
+- [robdmc/crontabs: A cron-like utility for Python](https://github.com/robdmc/crontabs)
+
+### Visualization
+
+- [altair-viz/altair: Declarative statistical visualization](https://github.com/altair-viz/altair)
+- [animated graph visualizations](https://github.com/mapio/GraphvizAnim)
+- [plotly/plotly.py: The interactive graphing](https://github.com/plotly/plotly.py)
+- [plotly/dash: Interactive, Reactive Web Apps for Python. Dash Is Productive™](https://github.com/plotly/dash)
+- [iTerm2 backend for Matplotlib.](https://github.com/daleroberts/itermplot)
+- [mingrammer/diagrams: Diagram as Code for prototyping cloud system architectures](https://github.com/mingrammer/diagrams)
+- [facebookresearch/hiplot: HiPlot makes understanding high dimensional data easy](https://github.com/facebookresearch/hiplot)
+- [lutzroeder/netron: Visualizer for neural network, deep learning, and machine learning models](https://github.com/lutzroeder/netron)
+
+### GUI
+
+- [hoffstadt/DearPyGui: Dear PyGui: A fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies](https://github.com/hoffstadt/DearPyGui)
+
+### Logic
+
+- [Electronic Design Automation](https://github.com/cjdrake/pyeda)
 
 ## 设计五原则
 
