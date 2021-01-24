@@ -77,13 +77,7 @@
   - [设计五原则](#%E8%AE%BE%E8%AE%A1%E4%BA%94%E5%8E%9F%E5%88%99)
   - [刷题](#%E5%88%B7%E9%A2%98)
   - [论文、会议及期刊](#%E8%AE%BA%E6%96%87%E4%BC%9A%E8%AE%AE%E5%8F%8A%E6%9C%9F%E5%88%8A)
-  - [学习资源](#%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90)
-    - [Pytorch](#pytorch)
-    - [Tensorflow](#tensorflow)
-  - [数据](#%E6%95%B0%E6%8D%AE)
-    - [爬虫](#%E7%88%AC%E8%99%AB)
   - [小工具](#%E5%B0%8F%E5%B7%A5%E5%85%B7)
-  - [其他](#%E5%85%B6%E4%BB%96)
   - [致谢](#%E8%87%B4%E8%B0%A2)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -571,6 +565,8 @@ AIX|	`LIBPATH`
 
 ### DeepLearning
 
+- [fast.ai · Making neural nets uncool again](https://www.fast.ai/)
+- [TensorFlow](https://www.tensorflow.org/tutorials)
 - [Tensorflow Models](https://github.com/tensorflow/models)
 - [DeepLearning Papers](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 - [Awesome-Deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers)
@@ -645,8 +641,6 @@ AIX|	`LIBPATH`
 - [Async Sanic](https://github.com/huge-success/sanic)
 - [Websockets](https://github.com/aaugustin/websockets)
 - [tornadoweb/tornado: asynchronous](https://github.com/tornadoweb/tornado)
-
-
 
 ### Boilerplate
 
@@ -730,7 +724,12 @@ AIX|	`LIBPATH`
 - [crawlers](https://github.com/evilcos/crawlers)
 - [grab: Web Scraping Framework](https://github.com/lorien/grab)
 - [Selenium](https://selenium-python.readthedocs.io/index.html)
+  - Mac 安装时，需要重新安装 pycurl，首先 `pip uninstall pycurl`
+  - 然后 `export PYCURL_SSL_LIBRARY=openssl`
+  - 再 `export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include;pip install pycurl==7.43.0.1 --compile --no-cache-dir`
 - [Scrapy](https://docs.scrapy.org/en/latest/index.html)
+- [scrapinghub/portia: Visual scraping for Scrapy](https://github.com/scrapinghub/portia)，可视化 Scrapy
+
 
 ### Audio
 
@@ -888,34 +887,9 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 - 推荐系统（RS）
   - [RecSys – ACM Recommender Systems](https://recsys.acm.org/)
 
-## 学习资源
-
-### Pytorch
-
-- [fast.ai · Making neural nets uncool again](https://www.fast.ai/)
-
-### Tensorflow
-
-- [TensorFlow](https://www.tensorflow.org/tutorials)
-
-## 数据
-
-### 爬虫
-
-- [Selenium with Python — Selenium Python Bindings 2 documentation](https://selenium-python.readthedocs.io/index.html)，有了它没有什么是不能爬的
-    - Mac 安装时，需要重新安装 pycurl，首先 `pip uninstall pycurl`
-    - 然后 `export PYCURL_SSL_LIBRARY=openssl`
-    - 再 `export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include;pip install pycurl==7.43.0.1 --compile --no-cache-dir`
-
-- [Scrapy 1.6 documentation — Scrapy 1.6.0 documentation](https://docs.scrapy.org/en/latest/index.html)
-- [scrapinghub/portia: Visual scraping for Scrapy](https://github.com/scrapinghub/portia)，可视化 Scrapy
-- [lorien/grab: Web Scraping Framework](https://github.com/lorien/grab)
-
 ## 小工具
 
 - Latex 图片转公式：[Mathpix Snip](https://mathpix.com/)
-
-## 其他
 
 - 正版软件代理：[数码荔枝 - 专注于分享最新鲜优秀的正版软件](https://www.lizhi.io/)
 - [Spectacle](https://www.spectacleapp.com/): Mac 窗口拖拉
