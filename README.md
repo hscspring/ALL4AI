@@ -23,10 +23,6 @@
   - [SublimeText](#sublimetext)
   - [Emacs](#emacs)
   - [Vim](#vim)
-- [代码检查](#%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5)
-- [代码测试](#%E4%BB%A3%E7%A0%81%E6%B5%8B%E8%AF%95)
-- [代码部署](#%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2)
-- [性能](#%E6%80%A7%E8%83%BD)
 - [Python 技能](#python-%E6%8A%80%E8%83%BD)
   - [Resources](#resources)
   - [Basic](#basic)
@@ -44,8 +40,9 @@
 - [工程](#%E5%B7%A5%E7%A8%8B)
   - [Design](#design)
   - [Test](#test)
-  - [Style](#style)
+  - [Style & Analysis](#style--analysis)
   - [Profile](#profile)
+  - [Performence](#performence)
   - [Command Line](#command-line)
   - [Better Print](#better-print)
   - [Safety](#safety)
@@ -116,7 +113,7 @@ sudo apt-get update
 ```
 
 
-参考至：  
+参考至：
 
 - [修改软件源为国内加速镜像 - 技术分享 - 社区 - 好雨，让云落地](https://t.goodrain.com/t/topic/236)
 - [LUG's repo file generator](https://mirrors.ustc.edu.cn/repogen/)
@@ -432,43 +429,6 @@ AIX|	`LIBPATH`
     - [vi 與 vim 的指令整理 | Vixual](http://www.vixual.net/blog/archives/234)
     - [給程式設計師的 Vim 入門圖解說明 | vgod's blog](http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/)
 
-## 代码检查
-
-- [Code Climate · GitHub Marketplace](https://github.com/marketplace/code-climate)
-- 代码检查：[flake8 3.4.1 : Python Package Index](https://pypi.python.org/pypi/flake8)
-- 代码复杂度检查：[rubik/radon: Various code metrics for Python code](https://github.com/rubik/radon)
-- 统计代码行数：[CLOC -- Count Lines of Code](http://cloc.sourceforge.net/)
-- 代码对比：[Scooter Software: Home of Beyond Compare](https://www.scootersoftware.com/)
-- 建议阅读[代码整洁之道 (豆瓣)](https://book.douban.com/subject/4199741/)，初期不需要太追求优化。
-- [github/semantic: Parsing, analyzing, and comparing source code across many languages](https://github.com/github/semantic)
-
-
-## 代码测试
-
-主要分单元测试和集成测试。
-
-- 和 github 做持续集成的服务：[Continuous Integration and Delivery - CircleCI](https://circleci.com/) 
-- Python 写测试的框架，可以参考：[pytest: helps you write better programs — pytest documentation](https://docs.pytest.org/en/latest/) 
-
-
-## 代码部署
-
-- GitHub 至少两个分支：dev 和 master，均为通过测试的正式版
-  - master 为发布版
-  - dev 为开发版
-- 自动触发：[Watchman A file watching service | Watchman](https://facebook.github.io/watchman/)
-
-## 性能
-
-- 尽量使用 Numpy 或 Pandas，因为它们底层是 C
-- Numpy 计算深度学习：[tfdeploy](https://github.com/riga/tfdeploy)
-- 数据库利用索引和 Cache
-  - 索引是将常见的查询在数据库中建好索引表
-  - Cache 是数据库常用的操作
-- [Boost.Python Tutorial - 1.65.1](http://www.boost.org/doc/libs/1_65_1/libs/python/doc/html/tutorial/index.html)
-- [Tutorials — Cython](http://docs.cython.org/en/latest/src/tutorial/)
-- [ray-project/ray: A system for parallel and distributed Python that unifies the ML ecosystem.](https://github.com/ray-project/ray)
-- [scikit-build/ninja-python-distributions: This project provides a \`setup.py\` script that build Ninja Python wheels.](https://github.com/scikit-build/ninja-python-distributions)
 
 ## Python 技能
 
@@ -594,14 +554,24 @@ AIX|	`LIBPATH`
 
 ### Test
 
+主要分单元测试和集成测试。
+
 - [Hypothesis: Property-Based Testing](https://github.com/HypothesisWorks/hypothesis)
 - [Plugin for providing variables to pytest](https://github.com/pytest-dev/pytest-variables)
 - [Example grpc_testing based unittest](https://github.com/alexykot/grpcio-test-example)
 - [pytest](https://docs.pytest.org/en/latest/)
+- 和 github 做持续集成的服务：[Continuous Integration and Delivery - CircleCI](https://circleci.com/) 
 
-### Style
+### Style & Analysis
 
 - [Style Checker](https://github.com/PyCQA/pycodestyle)
+- [Code Climate · GitHub Marketplace](https://github.com/marketplace/code-climate)
+- 代码检查：[flake8 3.4.1 : Python Package Index](https://pypi.python.org/pypi/flake8)
+- 代码复杂度检查：[rubik/radon: Various code metrics for Python code](https://github.com/rubik/radon)
+- [github/semantic: Parsing, analyzing, and comparing source code across many languages](https://github.com/github/semantic)
+- 统计代码行数：[CLOC -- Count Lines of Code](http://cloc.sourceforge.net/)
+- 代码对比：[Scooter Software: Home of Beyond Compare](https://www.scootersoftware.com/)
+- 建议阅读 [代码整洁之道 (豆瓣)](https://book.douban.com/subject/4199741/)，初期不需要太追求优化。
 
 ### Profile
 
@@ -611,6 +581,19 @@ AIX|	`LIBPATH`
 - [Distributed Asynchronous Hyperparameter Optimization](https://github.com/hyperopt/hyperopt)
 - [Memory Profiler](https://github.com/pythonprofilers/memory_profiler)
 - [PySnooper: Never use print for debugging again](https://github.com/cool-RR/PySnooper)
+
+
+### Performence
+
+- 尽量使用 Numpy 或 Pandas，因为它们底层是 C
+- Numpy 计算深度学习：[tfdeploy](https://github.com/riga/tfdeploy)
+- 数据库利用索引和 Cache
+  - 索引是将常见的查询在数据库中建好索引表
+  - Cache 是数据库常用的操作
+- [Boost.Python Tutorial - 1.65.1](http://www.boost.org/doc/libs/1_65_1/libs/python/doc/html/tutorial/index.html)
+- [Tutorials — Cython](http://docs.cython.org/en/latest/src/tutorial/)
+- [ray-project/ray: A system for parallel and distributed Python that unifies the ML ecosystem.](https://github.com/ray-project/ray)
+- [scikit-build/ninja-python-distributions: This project provides a \`setup.py\` script that build Ninja Python wheels.](https://github.com/scikit-build/ninja-python-distributions)
 
 
 ### Command Line
@@ -681,10 +664,15 @@ AIX|	`LIBPATH`
 
 ### Deploy
 
+- GitHub 至少两个分支：dev 和 master，均为通过测试的正式版
+  - master 为发布版
+  - dev 为开发版
 - [kubernetes-sigs/kustomize: Customization of kubernetes YAML configurations](https://github.com/kubernetes-sigs/kustomize)
 - [composer/docker: Composer in Docker](https://github.com/composer/docker)
 - [Docker](https://docs.docker.com/)
 - [Kubernetes](https://www.kubernetes.org.cn/docs)
+- 自动触发：[Watchman A file watching service | Watchman](https://facebook.github.io/watchman/)
+
 
 ### Database
 
