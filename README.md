@@ -818,11 +818,25 @@ D|	依赖反转原则|	高层次的模块不应该依赖于低层次的模块，
 
 部分参考至：[有程序员专门刷题的网站吗？ - 知乎](https://www.zhihu.com/question/36488823/answer/173370435)
 
+## 面试
+
+- [CyC2018/CS-Notes: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++](https://github.com/CyC2018/CS-Notes)
+- [Snailclimb/JavaGuide: 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！](https://github.com/Snailclimb/JavaGuide)
+
 ## 论文、会议及期刊
 
-- 汇总
-  - [ML, DM, and AI Conference Map](http://www.kamishima.net/archive/MLDMAImap.pdf)
-  - 会议汇总：[ACL Anthology](https://aclanthology.coli.uni-saarland.de/)
+- 汇总：
+    - [Conference | Synced](https://syncedreview.com/category/conference/)
+    - [ML, DM, and AI Conference Map](http://www.kamishima.net/archive/MLDMAImap.pdf)
+    
+- 按时间
+    - Feb: [AAAI | Association for the Advancement of Artificial Intelligence](https://www.aaai.org/)
+    - Apr: [EACL | The European Chapter of the ACL](http://eacl.org/)
+    - Jun: [SIGIR | Special Interest Group on Information Retrieval](http://sigir.org/)
+    - Jul: [NAACL | North American Chapter of the ACL (Association for Computational Linguistics)](https://naacl.org/)
+
+    - Jul: [ICML | International Conference on Machine Learning](https://icml.cc/)
+    - Dec: [NIPS | Conference on Neural Information Processing Systems](https://nips.cc/)
 
 
 - 自然语言处理（NLP）

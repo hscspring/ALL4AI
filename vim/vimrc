@@ -65,4 +65,11 @@ let g:syntastic_check_on_wq = 0
 " Autoformat
 noremap <F3> :Autoformat<CR>
 
+" cmd
+noremap <leader>c :!./
+noremap <leader>cp :!g++ --std=c++17 -O2 -Wall 
+noremap <leader>py :!python 
+
+
+
 colorscheme molokai
