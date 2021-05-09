@@ -35,6 +35,7 @@ set si "Smart indent
 " Display
 "===========================
 
+set nu
 set ruler
 set hlsearch
 
