@@ -2,7 +2,7 @@
 " Version: 0.1
 " Email: haoshaochun@gmail.com
 " Blog: https://yam.gift
-" LastModify: 20210315
+" LastModify: 20210516
 
 
 
@@ -104,7 +104,6 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
-
 
 noremap <Leader>c :!./
 noremap <Leader>cp :!g++ --std=c++17 -O2 -Wall 
