@@ -31,8 +31,8 @@ set history=500
 " Plug
 "===========================
 " Install bundles
-if filereadable(expand("~/bundles.vimrc"))
-  source ~/bundles.vimrc
+if filereadable(expand("~/.vimrc.bundles"))
+  source ~/.vimrc.bundles
 endif
 
 " Autoformat
