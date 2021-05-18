@@ -32,7 +32,7 @@ set history=500
 "===========================
 " Install bundles
 if filereadable(expand("~/.vimrc.bundle"))
-  source ~/.vimrc.bundle
+    source ~/.vimrc.bundle
 endif
 
 
@@ -73,7 +73,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " color
-colorscheme molokai
+colorscheme nord "zenburn solarized molokai
 
 
 
