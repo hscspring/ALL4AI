@@ -66,7 +66,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_highlighting=1
 let g:syntastic_auto_jump = 0
 
-let g:syntastic_python_checkers=['flake8', 'pyflakes', 'pylint'] " https://www.flake8rules.com/
+let g:syntastic_python_checkers=['flake8', 'pyflakes', ] " https://www.flake8rules.com/ do not use pylint
 let g:syntastic_python_flake8_args='--ignore=E501'
 
 
