@@ -7,6 +7,12 @@ filetype off
 
 call plug#begin('~/.vim/bundle')
 
+" Language
+Plug 'rust-lang/rust.vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
+
 " syntax
 Plug 'vim-syntastic/syntastic'
 Plug 'Chiel92/vim-autoformat'
@@ -51,6 +57,10 @@ call plug#end()
 "---------------------------
 " Config
 "---------------------------
+
+" rust.vim
+let g:rustfmt_autosave = 1
+
 
 " Syntastic
 set statusline+=%#warningmsg#

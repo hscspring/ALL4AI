@@ -73,7 +73,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " color
-colorscheme nord "zenburn solarized molokai
+colorscheme  molokai " solarized nord zenburn  molokai
 
 
 
@@ -132,7 +132,7 @@ ab #a ********************
 "===========================
 " Search
 "===========================
-" set ic  " ignorecase or noic means no ignorecase
+set ic  " ignorecase or noic means no ignorecase
 set incsearch  " http://www.oualline.com/vim/10/top_10.html
 set hlsearch
 
@@ -171,6 +171,12 @@ set termencoding=utf-8
 set encoding=UTF-8
 set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 
+
+" https://vim.fandom.com/wiki/Folding
+augroup vimrc
+    au BufReadPre * set foldmethod=syntax
+    au BufWinEnter * if &fdm == 'syntax' | set foldmethod=manual | endif
+augroup END
 
 
 "===========================
