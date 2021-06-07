@@ -395,7 +395,7 @@ AIX|	`LIBPATH`
 - 设置 TAB 键为空格：`{
   "tab_size": 4,
   "translate_tabs_to_spaces": true,
-}`
+  }`
 - pep8 插件，使用：`Ctrl + Shift + 8`
 
 ### Emacs
@@ -594,6 +594,7 @@ AIX|	`LIBPATH`
 - [Tutorials — Cython](http://docs.cython.org/en/latest/src/tutorial/)
 - [ray-project/ray: A system for parallel and distributed Python that unifies the ML ecosystem.](https://github.com/ray-project/ray)
 - [scikit-build/ninja-python-distributions: This project provides a \`setup.py\` script that build Ninja Python wheels.](https://github.com/scikit-build/ninja-python-distributions)
+- [arrow/python at master · apache/arrow](https://github.com/apache/arrow/tree/master/python)
 
 
 ### Command Line
@@ -604,6 +605,11 @@ AIX|	`LIBPATH`
 
 - [onelivesleft/PrettyErrors: Prettify Python exception output to make it legible.](https://github.com/onelivesleft/PrettyErrors/)
 - [willmcgugan/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.](https://github.com/willmcgugan/rich)
+
+### Debug
+
+- [gotcha/ipdb: Integration of IPython pdb](https://github.com/gotcha/ipdb)
+- [pdbpp/pdbpp: pdb++, a drop-in replacement for pdb (the Python debugger)](https://github.com/pdbpp/pdbpp)
 
 ### Safety
 
