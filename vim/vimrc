@@ -175,8 +175,8 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 " https://vim.fandom.com/wiki/Folding
 " https://www.jianshu.com/p/16e0b822b682
 augroup vimrc
-    au BufReadPre * set foldmethod=syntax
-    au BufWinEnter * if &fdm == 'syntax' | set foldmethod=manual | endif
+    au BufReadPre * setlocal foldmethod=indent
+    au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
 augroup END
 
 

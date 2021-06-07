@@ -8,13 +8,14 @@ filetype off
 call plug#begin('~/.vim/bundle')
 
 " Language
-Plug 'rust-lang/rust.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
+Plug 'prabirshrestha/vim-lsp'
 
 " syntax
 Plug 'vim-syntastic/syntastic'
+Plug 'rust-lang/rust.vim'
 Plug 'Chiel92/vim-autoformat'
 Plug 'codota/tabnine-vim'
 
@@ -58,9 +59,6 @@ call plug#end()
 " Config
 "---------------------------
 
-" rust.vim
-let g:rustfmt_autosave = 1
-
 
 " Syntastic
 set statusline+=%#warningmsg#
@@ -88,6 +86,25 @@ let g:autoformat_remove_trailing_spaces = 0 " removing trailing whitespaces
 let g:formatter_yapf_style = 'google'
 let g:formatters_python = ['black', 'autopep8', 'yapf']
 let g:run_all_formatters_python = 1
+
+
+" rust.vim
+let g:rustfmt_autosave = 1
+if executable('rust-analyzer')
+  au User lsp_setup call lsp#register_server({
+        \   'name': 'Rust Language Server',
+        \   'cmd': {server_info->['rust-analyzer']},
+        \   'whitelist': ['rust'],
+        \   'initialization_options': {
+        \     'cargo': {
+        \       'loadOutDirsFromCheck': v:true,
+        \     },
+        \     'procMacro': {
+        \       'enable': v:true,
+        \     },
+        \   },
+        \ })
+endif
 
 
 " NerdCommenter
