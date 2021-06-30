@@ -514,9 +514,12 @@ AIX|	`LIBPATH`
 ### DataAnnotation
 
 - [opencv/cvat: Computer Vision Annotation Tool](https://github.com/opencv/cvat)
+- [wkentaro/labelme: Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation).](https://github.com/wkentaro/labelme)
 - [generating training data with weak supervision](https://github.com/snorkel-team/snorkel)
 - [make basic image processing operations](https://github.com/jrosebr1/imutils)
 - [nlplab/brat: textual annotation](https://github.com/nlplab/brat)
+- [doccano/doccano: Open source annotation tool for machine learning practitioners.](https://github.com/doccano/doccano)
+- [Overview - CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
 
 ### DeepLearning
 
