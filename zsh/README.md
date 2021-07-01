@@ -2,11 +2,15 @@ oh-my-zsh
 
 z, autojump
 
-fzf
+fzf, fd
 
 tldr
 
-ar,rg
+ag,rg
+
+jsontools 
+
+vi-mode
 
 
 zsh-proxy
