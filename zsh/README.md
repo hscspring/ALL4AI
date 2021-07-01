@@ -1,10 +1,12 @@
 oh-my-zsh
-j
 
-z
+z, autojump
 
 fzf
 
 tldr
 
 ar,rg
+
+
+zsh-proxy
