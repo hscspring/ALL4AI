@@ -34,9 +34,11 @@
 - [AI](#ai)
   - [Deploy](#deploy)
   - [Toolkit](#toolkit)
+  - [Dataset](#dataset)
   - [DataAnnotation](#dataannotation)
   - [DeepLearning](#deeplearning)
   - [MachineLearning](#machinelearning)
+  - [HyperOptimization](#hyperoptimization)
 - [工程](#%E5%B7%A5%E7%A8%8B)
   - [Design](#design)
   - [Test](#test)
@@ -45,6 +47,7 @@
   - [Performence](#performence)
   - [Command Line](#command-line)
   - [Better Print](#better-print)
+  - [Debug](#debug)
   - [Safety](#safety)
   - [Distribute](#distribute)
   - [FrameWork](#framework)
@@ -72,6 +75,7 @@
   - [Logic](#logic)
 - [设计五原则](#%E8%AE%BE%E8%AE%A1%E4%BA%94%E5%8E%9F%E5%88%99)
 - [刷题](#%E5%88%B7%E9%A2%98)
+- [面试](#%E9%9D%A2%E8%AF%95)
 - [论文、会议及期刊](#%E8%AE%BA%E6%96%87%E4%BC%9A%E8%AE%AE%E5%8F%8A%E6%9C%9F%E5%88%8A)
 - [小工具](#%E5%B0%8F%E5%B7%A5%E5%85%B7)
 - [致谢](#%E8%87%B4%E8%B0%A2)
@@ -338,7 +342,7 @@ AIX|	`LIBPATH`
   		- `pip install jupyter_nbextensions_configurator`
   		- `jupyter nbextensions_configurator enable --user`
   - 远程服务器 jupyter notebook 创建（如何创建参照网上教程）后，本地访问：本地创建 `ssh remote_name@remote_address -L127.0.0.1:remode_port:127.0.0.1:local_port` 就可以在本地用 `localhost:local_port` 访问了
-  - 并行：[ipython/ipyparallel: Interactive Parallel Computing in Python](https://github.com/ipython/ipyparallel)  
+  - 并行：[ipython/ipyparallel: Interactive Parallel Computing in Python](https://github.com/ipython/ipyparallel)
   		- `pip install ipyparallel`
   		- `ipcluster nbextension enable`
 
@@ -510,6 +514,21 @@ AIX|	`LIBPATH`
 - [atulapra/Emotion-detection](https://github.com/atulapra/Emotion-detection)
 - [ Multi-Person Pose Estimation&Tracking System](https://github.com/MVIG-SJTU/AlphaPose)
 - [facebookresearch/dlrm: recommendation](https://github.com/facebookresearch/dlrm)
+- [Jupyter Tutorial — Jupyter Tutorial 0.8.0](https://jupyter-tutorial.readthedocs.io/en/latest/)
+
+### Dataset
+
+- [Dataset Search](https://datasetsearch.research.google.com/)
+- [Hugging Face – The AI community building the future.](https://huggingface.co/datasets)
+- [Find Open Datasets and Machine Learning Projects | Kaggle](https://www.kaggle.com/datasets)
+- [Machine Learning Datasets | Papers With Code](https://www.paperswithcode.com/datasets)
+- [Datasets](https://www.reddit.com/r/datasets/)
+- [中文NLP数据集](https://www.cluebenchmarks.com/dataSet_search.html)
+- [Dataset list - A list of the biggest machine learning datasets](https://www.datasetlist.com/)
+- [awesomedata/awesome-public-datasets: A topic-centric list of HQ open datasets.](https://github.com/awesomedata/awesome-public-datasets)
+- [Data Is Plural](https://www.data-is-plural.com/)
+- [OpenML](https://www.openml.org/search?type=data)
+- [InsaneLife/ChineseNLPCorpus: 中文自然语言处理数据集，平时做做实验的材料。欢迎补充提交合并。](https://github.com/InsaneLife/ChineseNLPCorpus)
 
 ### DataAnnotation
 
@@ -539,6 +558,7 @@ AIX|	`LIBPATH`
 - [DeepLearning Projects](https://github.com/aymericdamien/TopDeepLearning)
 - [Ttensorflow_practice](https://github.com/princewen/tensorflow_practice)
 
+
 ### MachineLearning
 
 - [microsoft/nni: AutoML toolkit](https://github.com/microsoft/nni)
@@ -546,6 +566,24 @@ AIX|	`LIBPATH`
 - [Automated Machine Learning tool using genetic programming](https://github.com/EpistasisLab/tpot)
 - [Machine learning evaluation metrics](https://github.com/benhamner/Metrics)
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+
+### HyperOptimization
+
+- [autonomio/talos: Hyperparameter Optimization for TensorFlow, Keras and PyTorch](https://github.com/autonomio/talos)
+- [scikit-optimize: sequential model-based optimization in Python — scikit-optimize 0.8.1 documentation](https://scikit-optimize.github.io/stable/)
+- [fmfn/BayesianOptimization: A Python implementation of global optimization with gaussian processes.](https://github.com/fmfn/BayesianOptimization)
+- Ray Tune：[Tune: Scalable Hyperparameter Tuning — Ray v2.0.0.dev0](https://docs.ray.io/en/master/tune/index.html)
+- [hyperopt/hyperopt: Distributed Asynchronous Hyperparameter Optimization in Python](https://github.com/hyperopt/hyperopt)
+- [Introduction to the Keras Tuner  |  TensorFlow Core](https://www.tensorflow.org/tutorials/keras/keras_tuner)
+- Google Vizier：[Vizier 概览  |  AI Platform Vizier  |  Google Cloud](https://cloud.google.com/ai-platform/optimizer/docs/overview)
+- Amazon Sagemaker：[Amazon SageMaker 机器学习模型构建训练部署 - AWS 云服务](https://aws.amazon.com/cn/sagemaker/)
+- Microsoft NNI：[microsoft/nni: An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.](https://github.com/microsoft/nni)
+- Microsoft Advisor：[Optimization advisor overview - Finance & Operations | Dynamics 365 | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/optimization-advisor-overview)
+- [maxpumperla/hyperas: Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization](https://github.com/maxpumperla/hyperas) （已存档）
+- [Avsecz/kopt: Hyper-parameter optimization for Keras](https://github.com/Avsecz/kopt)（一阵没更新了）
+- [rsteca/sklearn-deap: Use evolutionary algorithms instead of gridsearch in scikit-learn](https://github.com/rsteca/sklearn-deap)（一阵没更新了）
+- [HIPS/Spearmint: Spearmint Bayesian optimization codebase](https://github.com/HIPS/Spearmint)（一阵没更新了）
+- [[1603.06560] Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560)
 
 ## 工程
 
