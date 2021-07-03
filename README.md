@@ -254,6 +254,7 @@ AIX|	`LIBPATH`
   - [linux 文件合并，去重，分割 - 长颈鹿 Giraffe - 博客园](http://www.cnblogs.com/giraffe/p/3193085.html)
   - [klen/atmark: Awk+Sed for humans](https://github.com/klen/atmark)
 - 各种命令使用快查：[tldr-pages/tldr: Simplified and community-driven man pages](https://github.com/tldr-pages/tldr)
+- [chubin/cheat.sh: the only cheat sheet you need](https://github.com/chubin/cheat.sh)
 - [应该知道的 Linux 技巧](https://coolshell.cn/articles/8883.html)
 
 ## 查找搜索

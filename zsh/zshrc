@@ -51,7 +51,7 @@ ZSH_THEME="refined"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl docker git brew z fd ripgrep jsontools vi-mode zsh-nvm )
+plugins=(git kubectl docker git brew z fd ripgrep jsontools vi-mode )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,6 +60,9 @@ source $ZSH/oh-my-zsh.sh
 # zsh
 . ~/z.sh 
 
+# gdal2
+export PATH="/Users/Yam/.local/bin:$PATH"
+export PATH="/usr/local/opt/gdal2/bin:$PATH"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -98,23 +101,13 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias pc="proxychains4"
 alias aria="aria2c --conf-path="/Users/Yam/.aria2/aria2.conf" -D" 
 alias julia='/Applications/Julia-1.0.app/Contents/Resources/julia/bin/julia'
-alias mysql="/usr/local/mysql/bin/mysql"
-alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
-alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-
 # alias ffmpeg="/usr/local/Cellar/ffmpeg/bin/ffmpeg"
-
-export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH=$PATH:/usr/local/cling/bin
 export PATH="/usr/local/Cellar/ffmpeg/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# gdal2
-export PATH="/Users/Yam/.local/bin:$PATH"
-export PATH="/usr/local/opt/gdal2/bin:$PATH"
-
+plugins+=(zsh-nvm)
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/opt/opencv@2/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
@@ -122,6 +115,11 @@ export GOPATH=$HOME/go
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/bin/psql/bin:$PATH"
 
+alias mysql="/usr/local/mysql/bin/mysql"
+alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
+
+alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 export PATH=$PATH:/usr/local/sbin
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/ghz:$PATH"
@@ -186,5 +184,8 @@ export LC_ALL=en_US.UTF-8
 export LANG=zh_CN.UTF-8
 export LIBTORCH=/usr/local/libtorch
 export LD_LIBRARY_PATH=${LIBTORCH}/lib:$LD_LIBRARY_PATH
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
+fpath=(~/.zsh.d/ $fpath)
