@@ -611,7 +611,11 @@ AIX|	`LIBPATH`
 - 代码检查：[flake8 3.4.1 : Python Package Index](https://pypi.python.org/pypi/flake8)
 - 代码复杂度检查：[rubik/radon: Various code metrics for Python code](https://github.com/rubik/radon)
 - [github/semantic: Parsing, analyzing, and comparing source code across many languages](https://github.com/github/semantic)
-- 统计代码行数：[CLOC -- Count Lines of Code](http://cloc.sourceforge.net/)
+- 统计代码行数：
+    - [XAMPPRocky/tokei: Count your code, quickly.](https://github.com/XAMPPRocky/tokei)
+    - [cgag/loc: Count lines of code quickly.](https://github.com/cgag/loc)
+    - [boyter/scc: Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go](https://github.com/boyter/scc)
+    - [CLOC -- Count Lines of Code](http://cloc.sourceforge.net/)
 - 代码对比：[Scooter Software: Home of Beyond Compare](https://www.scootersoftware.com/)
 - 建议阅读 [代码整洁之道 (豆瓣)](https://book.douban.com/subject/4199741/)，初期不需要太追求优化。
 
