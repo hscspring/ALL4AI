@@ -74,7 +74,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_highlighting=1
 let g:syntastic_auto_jump = 0
 
-let g:syntastic_python_checkers=['flake8', 'pyflakes', ] " https://www.flake8rules.com/, donot use pylint
+let g:syntastic_python_checkers=['flake8', 'pyflakes', 'pylint'] " https://www.flake8rules.com/, donot use pylint
 let g:syntastic_python_flake8_args='--ignore=E501,E712,W504'
 
 
@@ -84,7 +84,7 @@ let g:autoformat_retab = 0 " retabbing
 let g:autoformat_remove_trailing_spaces = 0 " removing trailing whitespaces
 
 let g:formatter_yapf_style = 'google'
-let g:formatters_python = ['black', 'autopep8'] ", 'yapf']
+let g:formatters_python = ['black'] " , 'autopep8'] , 'yapf']
 let g:run_all_formatters_python = 1
 
 
