@@ -75,7 +75,7 @@ let g:syntastic_enable_highlighting=1
 let g:syntastic_auto_jump = 0
 
 let g:syntastic_python_checkers=['flake8', 'pyflakes', ] " https://www.flake8rules.com/, donot use pylint
-let g:syntastic_python_flake8_args='--ignore=E501,E712,W504,W503'
+let g:syntastic_python_flake8_args='--ignore=E501,E712,W504,W503,F401'
 let g:syntastic_python_pylint_args='-d unnecessary-lambda,invalid-name'
 
 
