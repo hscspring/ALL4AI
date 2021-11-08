@@ -1,0 +1,162 @@
+"===========================
+" Plugin
+"===========================
+
+
+filetype off
+
+call plug#begin('~/.vim/bundle')
+
+" Language
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
+Plug 'prabirshrestha/vim-lsp'
+
+" syntax
+Plug 'vim-syntastic/syntastic'
+Plug 'rust-lang/rust.vim'
+Plug 'Chiel92/vim-autoformat'
+Plug 'codota/tabnine-vim'
+
+" Search
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+" Plug 'junegunn/fzf.vim'
+
+" Edit
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'preservim/nerdcommenter'
+
+" Enhance
+Plug 'easymotion/vim-easymotion'
+Plug 'junegunn/vim-slash'  " enhancing search
+Plug 'psliwka/vim-smoothie'
+
+" Git
+Plug 'tpope/vim-fugitive'  " git
+Plug 'junegunn/gv.vim'     " git commit log
+
+" Snips
+Plug 'SirVer/ultisnips'  " https://bhupesh-v.github.io/learn-how-to-use-code-snippets-vim-cowboy/
+Plug 'honza/vim-snippets'
+
+" Display
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'flazz/vim-colorschemes'
+Plug 'preservim/nerdtree' |
+            \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+            \ Plug 'ryanoasis/vim-devicons'
+" Plug 'ryanoasis/vim-devicons'  " file icon
+" Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' } " On-demand loading
+
+call plug#end()
+
+
+"---------------------------
+" Config
+"---------------------------
+
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_enable_signs = 1
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_loc_list_height = 5
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_enable_highlighting=1
+let g:syntastic_auto_jump = 0
+
+let g:syntastic_python_checkers=['flake8', 'pyflakes', ] " https://www.flake8rules.com/, donot use pylint
+let g:syntastic_python_flake8_args='--ignore=E501,E712,W504,W503,F401'
+let g:syntastic_python_pylint_args='-d unnecessary-lambda,invalid-name'
+
+
+" Autoformat
+let g:autoformat_autoindent = 0 " disable the fallback to vim's indent file
+let g:autoformat_retab = 0 " retabbing
+let g:autoformat_remove_trailing_spaces = 0 " removing trailing whitespaces
+
+let g:formatter_yapf_style = 'google'
+let g:formatters_python = ["black", "yapf", "autopep8"] "['black' , 'autopep8', 'yapf']
+let g:run_all_formatters_python = 1
+
+
+" rust.vim
+let g:rustfmt_autosave = 1
+if executable('rust-analyzer')
+  au User lsp_setup call lsp#register_server({
+        \   'name': 'Rust Language Server',
+        \   'cmd': {server_info->['rust-analyzer']},
+        \   'whitelist': ['rust'],
+        \   'initialization_options': {
+        \     'cargo': {
+        \       'loadOutDirsFromCheck': v:true,
+        \     },
+        \     'procMacro': {
+        \       'enable': v:true,
+        \     },
+        \   },
+        \ })
+endif
+
+
+" NerdCommenter
+let g:NERDCreateDefaultMappings = 1
+let g:NERDSpaceDelims = 0 " Add spaces after comment delimiters by default
+let g:NERDCompactSexyComs = 1 " Use compact syntax for prettified multi-line comments
+let g:NERDTrimTrailingWhitespace = 1 " Enable trimming of trailing whitespace when uncommenting
+
+
+" Easymotion
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+let g:EasyMotion_smartcase = 1 " Turn on case-insensitive feature
+
+
+" LeaderF
+let g:Lf_HideHelp = 1
+let g:Lf_UseCache = 0
+let g:Lf_UseVersionControlTool = 0
+let g:Lf_IgnoreCurrentBufferName = 1
+let g:Lf_WildIgnore = {
+            \ 'dir': ['.svn','.git','.hg','.vscode','.wine','.deepinwine','.oh-my-zsh'],
+            \ 'file': ['*.sw?','~$*','*.bak','*.exe','*.o','*.so','*.py[co]']
+            \}
+
+
+" auto-pairs
+let g:AutoPairsFlyMode = 0
+
+
+" airline
+let g:airline#extensions#tabline#enabled = 1  " Automatically displays all buffers when there's only one tab open.
+" let g:airline_theme='zenburn'
+
+
+" Snips
+
+
+" nerdtree git plugin
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',
+                \ }
+let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
+
+
+
