@@ -317,13 +317,14 @@ AIX|	`LIBPATH`
 
   注意：只要这么操作就可以无痛使用（Mac），但如果你想更深入了解一下，下面的内容可以参考：
 
-  - brew 安装的 python 在 `/usr/local/Cellar/python/[version]/`
+  - brew 安装的 python 在 `/usr/local/Cellar/python@[version]/`
   - `site-packages` 实际位置在 `/usr/local/lib/python*`
   - brew 安装好后会在两个地方创建链接：
       - `/usr/local/opt/python/libexec/bin/`
       - `/usr/local/bin/`
-  - 系统自带的在 `/usr/bin/python*`，实际位置在 `/System/Library/Frameworks/Python.framework/Versions/`
-  - 直接用 link 来管理 python 版本：python2，python3 分别对应相应版本
+  - 系统自带的在 `/usr/bin/python`，实际位置在 `/System/Library/Frameworks/Python.framework/Versions/`，`site-packages` 在 `/usr/local/lib/python2.7`下，系统自带有多个版本（2.3 2.5 2.6 2.7），当前为 2.7
+  - 升级 Xcode 后会安装 Python3，在 `/usr/bin/python3`，实际位置在 `/Applications/Xcode.app/Contents/Developer/usr/bin/python3`，`site-packages` 有两个，用户的在 `~/Library/Python/3.8/lib/python/`，系统的在 `/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages/`
+  - 最终 python=python2（系统带的），python3=python3.8.9（Xcode 装的），python3.7，python3.8，python3.9 分别对应各自版本。pip3=pip3.8.9（Xcode 的，在系统的 `site-packages` 里），pip3.7，pip3.8，pip3.9 分别对应各自版本。整体清爽了很多，当然输入时稍微麻烦了些。
 
 
 ## 数据科学常用包
