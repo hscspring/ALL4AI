@@ -73,7 +73,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " color
-colorscheme nord "zenburn solarized molokai 
+colorscheme molokai  "nord zenburn solarized molokai 
 
 
 
@@ -106,9 +106,9 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
-noremap <Leader>sh :!./
+noremap <Leader>sh :!
 noremap <Leader>cp :!g++ --std=c++17 -O2 -Wall 
-noremap <Leader>py :!python 
+noremap <Leader>py :!python3.8 
 
 
 
