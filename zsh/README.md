@@ -12,5 +12,6 @@ jsontools
 
 vi-mode
 
-
 zsh-proxy
+
+zenith, btm, htop

@@ -109,6 +109,7 @@ nnoremap <c-l> <c-w>l
 noremap <Leader>sh :!
 noremap <Leader>cp :!g++ --std=c++17 -O2 -Wall 
 noremap <Leader>py :!python3.8 
+noremap <Leader>pt :!python3.8 -m pytest 
 
 
 
