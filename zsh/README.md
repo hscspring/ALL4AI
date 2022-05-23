@@ -2,7 +2,7 @@ oh-my-zsh
 
 z, autojump
 
-fzf, fd
+fzf, fd, mcfly
 
 tldr
 
@@ -15,3 +15,5 @@ vi-mode
 zsh-proxy
 
 zenith, btm, htop
+
+erdtree
