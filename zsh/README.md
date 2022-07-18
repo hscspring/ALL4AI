@@ -4,6 +4,10 @@ z, autojump
 
 fzf, fd, mcfly
 
+bat
+
+tere
+
 tldr
 
 ag,rg
