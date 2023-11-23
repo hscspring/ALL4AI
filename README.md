@@ -539,6 +539,7 @@ AIX|	`LIBPATH`
 - [transitive-bullshit/chatgpt-api: Node.js client for the official ChatGPT API. 🔥](https://github.com/transitive-bullshit/chatgpt-api)
 - [terry3041/pyChatGPT: An unofficial Python wrapper for OpenAI's ChatGPT API](https://github.com/terry3041/pyChatGPT)
 - [Sha1rholder/use-ChatGPT-in-GFW: 在中国境内使用 OpenAI 服务的方法](https://github.com/Sha1rholder/use-ChatGPT-in-GFW#%E4%BD%BF%E7%94%A8-openai-api)
+- [ninja/README_zh.md at main · gngpp/ninja](https://github.com/gngpp/ninja/blob/main/README_zh.md)
 
 ### Inference
 
@@ -553,7 +554,6 @@ AIX|	`LIBPATH`
 - [sonos/tract: Tiny, no-nonsense, self-contained, Tensorflow and ONNX inference](https://github.com/sonos/tract)
 - [rustformers/llm: An ecosystem of Rust libraries for working with large language models](https://github.com/rustformers/llm)
 - [bentoml/OpenLLM: Operating LLMs in production](https://github.com/bentoml/OpenLLM)
-- [huggingface/safetensors: Simple, safe way to store and distribute tensors](https://github.com/huggingface/safetensors)
 - [huggingface/candle: Minimalist ML framework for Rust](https://github.com/huggingface/candle)
 - [tairov/llama2.mojo: Inference Llama 2 in one file of pure 🔥](https://github.com/tairov/llama2.mojo)
 
@@ -564,9 +564,23 @@ AIX|	`LIBPATH`
 
 ## AI
 
+### Format
+
+- [onnx/onnx: Open standard for machine learning interoperability](https://github.com/onnx/onnx)
+- [huggingface/safetensors: Simple, safe way to store and distribute tensors](https://github.com/huggingface/safetensors)
+- [openai/triton: Development repository for the Triton language and compiler](https://github.com/openai/triton)
+
+### Inference
+
+- [microsoft/onnxruntime: ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator](https://github.com/microsoft/onnxruntime)
+- [NVIDIA/TensorRT: NVIDIA® TensorRT™, an SDK for high-performance deep learning inference, includes a deep learning inference optimizer and runtime that delivers low latency and high throughput for inference applications.](https://github.com/NVIDIA/TensorRT)
+- [openvinotoolkit/openvino: OpenVINO™ is an open-source toolkit for optimizing and deploying AI inference](https://github.com/openvinotoolkit/openvino)
+- [triton-inference-server/server: The Triton Inference Server provides an optimized cloud and edge inferencing solution.](https://github.com/triton-inference-server/server)
+- [KomputeProject/kompute: General purpose GPU compute framework built on Vulkan to support 1000s of cross vendor graphics cards (AMD, Qualcomm, NVIDIA & friends). Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases. Backed by the Linux Foundation.](https://github.com/KomputeProject/kompute)
+- [Adlik/Adlik: Adlik: Toolkit for Accelerating Deep Learning Inference](https://github.com/Adlik/Adlik)
+
 ### Deploy
 
-- [Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
 - [tensorflow/serving](https://github.com/tensorflow/serving)
 - [pytorch/serve: Model Serving on PyTorch](https://github.com/pytorch/serve)
 - [TFX: End-to-End Platform for Deploying Production ML Pipelines](https://github.com/tensorflow/tfx)
