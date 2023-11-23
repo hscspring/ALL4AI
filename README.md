@@ -2,15 +2,14 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [更改源](#%E6%9B%B4%E6%94%B9%E6%BA%90)
-- [Terminal](#terminal)
-- [系统配置文件](#%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
-  - [所有用户](#%E6%89%80%E6%9C%89%E7%94%A8%E6%88%B7)
-  - [单个用户](#%E5%8D%95%E4%B8%AA%E7%94%A8%E6%88%B7)
-- [环境变量](#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
-- [TerminalMultiplexers](#terminalmultiplexers)
+- [系统](#%E7%B3%BB%E7%BB%9F)
+  - [更改源](#%E6%9B%B4%E6%94%B9%E6%BA%90)
+  - [系统配置文件](#%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
+  - [环境变量](#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
+  - [TerminalMultiplexers](#terminalmultiplexers)
 - [SSH](#ssh)
 - [GIT](#git)
+- [Terminal](#terminal)
 - [命令行工具](#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
 - [查找搜索](#%E6%9F%A5%E6%89%BE%E6%90%9C%E7%B4%A2)
 - [复制粘贴](#%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4)
@@ -31,8 +30,17 @@
   - [Pipe](#pipe)
   - [FP](#fp)
 - [数据结构和算法](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95)
+- [LLM](#llm)
+  - [Layout](#layout)
+  - [Sheet](#sheet)
+  - [Agent](#agent)
+  - [VectorSearch](#vectorsearch)
+  - [Just Skin](#just-skin)
+  - [Inference](#inference)
+  - [Prompts](#prompts)
 - [AI](#ai)
   - [Deploy](#deploy)
+  - [Demo/WebAPP](#demowebapp)
   - [Toolkit](#toolkit)
   - [Dataset](#dataset)
   - [DataAnnotation](#dataannotation)
@@ -84,7 +92,9 @@
 
 > 个人工具箱，Python 居多。包括但不限于：系统、编程、算法等多个方面内容。
 
-## 更改源
+## 系统
+
+### 更改源
 
 更改 Linux 系统软件源：
 
@@ -123,22 +133,16 @@ sudo apt-get update
 - [LUG's repo file generator](https://mirrors.ustc.edu.cn/repogen/)
 
 
-## Terminal
+### 系统配置文件
 
-- Terminal: [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)
-- Bash: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)，需要先安装 Zsh: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-
-
-## 系统配置文件
-
-### 所有用户
+**所有用户**
 
 - `/etc/profile`: 此文件为系统的每个用户设置环境信息。当用户登录时，该文件被执行一次，并从 `/etc/profile.d` 目录的配置文件中搜集 shell 的设置。一般用于设置所有用户使用的全局变量。
 - `/etc/bashrc`: 当 bash shell 被打开时，该文件被读取。也就是说，每次新打开一个终端 shell，该文件就会被读取。
 - `/etc/paths` 
 - [echo 变量内容删除和替换](http://blog.51cto.com/sndapk/1093073)
 
-### 单个用户
+**单个用户**
 
 - `~/.bash_profile`: 登录之后在 `/etc/profile` 载入之后载入, 十分重要的配置文件
 - `~/.bash_login`: 登录之后如果 `~/.bash_profile` 不存在的话, 载入这个文件 
@@ -159,7 +163,7 @@ sudo apt-get update
 
 参考至：[设置 Linux 环境变量的方法和区别\_Ubuntu\_给力星](http://www.powerxing.com/linux-environment-variable/)
 
-## 环境变量
+### 环境变量
 
 - `LIBRARY_PATH`  
   - 环境变量用于在程序编译期间查找动态链接库时指定查找共享库的路径
@@ -191,7 +195,7 @@ AIX|	`LIBPATH`
   - [LIBRARY\_PATH 和 LD\_LIBRARY\_PATH 环境变量的区别 - 大圆那些事 - 博客园](http://www.cnblogs.com/panfeng412/archive/2011/10/20/library_path-and-ld_library_path.html)  
   - [LD\_LIBRARY\_PATH 与 LIBPATH - russle 的专栏 - CSDN 博客](http://blog.csdn.net/russle/article/details/7228462)
 
-## TerminalMultiplexers
+### TerminalMultiplexers
 
 远程会话窗口管理器，就是让你的远程连接（SSH）不中断，退出后下次登录时程序依然在运行。具体可参考：
 
@@ -237,6 +241,13 @@ AIX|	`LIBPATH`
   - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html#cherry-pick)
   - [Git 的 4 个阶段的撤销更改 - 日新亭 - SegmentFault](https://segmentfault.com/a/1190000011969554)
   - [重新组织 git 本地提交 | yongpoliu.com](http://yongpoliu.com/reorganize-git-local-commits/)
+
+
+## Terminal
+
+- Terminal: [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)
+- Bash: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)，需要先安装 Zsh: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+
 
 
 ## 命令行工具
@@ -380,11 +391,14 @@ AIX|	`LIBPATH`
 
 强烈建议看官方文档，不要看各类教程。
 
+
 - CUDA 
   - 安装包下载：[CUDA Toolkit Archive | NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive)
+  - 特定版本：[CUDA Toolkit 11.8 Downloads | NVIDIA Developer](https://developer.nvidia.com/cuda-11-8-0-download-archive)
   - 安装：[Installation Guide Linux :: CUDA Toolkit Documentation](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#pre-installation-actions)
+  - Docker相关：[Installing the NVIDIA Container Toolkit — NVIDIA Container Toolkit 1.14.3 documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 - cuDNN 
-  - 安装包下载：[cuDNN Download | NVIDIA Developer](https://developer.nvidia.com/rdp/cudnn-download)
+  - 安装包下载：[cuDNN Download | NVIDIA Developer](https://developer.nvidia.com/rdp/cudnn-archive)
   - 安装：[cuDNN Installation Guide :: Deep Learning SDK Documentation](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installdriver)
 - `sudo apt-get install cuda-x-0`: 安装非最新版本
 - 卸载
@@ -485,6 +499,69 @@ AIX|	`LIBPATH`
 - [Coding Interview Challenges](https://github.com/donnemartin/interactive-coding-challenges)
 - [GeneticAlgorithmsWithPython](https://github.com/handcraftsman/GeneticAlgorithmsWithPython)
 
+## LLM
+
+### Layout
+
+- [unilm/layoutreader at master · microsoft/unilm](https://github.com/microsoft/unilm/tree/master/layoutreader)
+- [PaddleNLP/model_zoo/ernie-layout/README_ch.md at develop · PaddlePaddle/PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP/blob/develop/model_zoo/ernie-layout/README_ch.md)
+- [AdvancedLiterateMachinery/Applications/DocXChain at main · AlibabaResearch/AdvancedLiterateMachinery](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/Applications/DocXChain/)
+
+### Sheet
+
+- [gventuri/pandas-ai: PandasAI is the Python library that integrates Gen AI into pandas, making data analysis conversational](https://github.com/gventuri/pandas-ai)
+
+### Agent
+
+重点关注MicroSoft。
+
+- [LLaVA-VL/LLaVA-Interactive-Demo: LLaVA-Interactive-Demo](https://github.com/LLaVA-VL/LLaVA-Interactive-Demo/tree/main)
+- [yxuansu/PandaGPT: [TLLM'23] PandaGPT: One Model To Instruction-Follow Them All](https://github.com/yxuansu/PandaGPT/tree/main)
+- [microsoft/autogen: Enable Next-Gen Large Language Model Applications. Join our Discord: https://discord.gg/pAbnFJrkgZ](https://github.com/microsoft/autogen)
+- [microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps](https://github.com/microsoft/semantic-kernel/tree/main)
+- [visual-openllm/visual-openllm: something like visual-chatgpt, 文心一言的开源版](https://github.com/visual-openllm/visual-openllm)
+
+### VectorSearch
+
+- [paradedb/paradedb: PostgreSQL for Search](https://github.com/paradedb/paradedb)
+- [facebookresearch/faiss: A library for efficient similarity search and clustering of dense vectors.](https://github.com/facebookresearch/faiss)
+- [milvus-io/milvus: A cloud-native vector database, storage for next generation AI applications](https://github.com/milvus-io/milvus)
+- [alibaba/proxima](https://github.com/alibaba/proxima)
+- [vearch/vearch: A distributed system for embedding-based vector retrieval](https://github.com/vearch/vearch)
+- [castorini/anserini: Anserini is a Lucene toolkit for reproducible information retrieval research](https://github.com/castorini/Anserini)
+- [google-research/scann at master · google-research/google-research](https://github.com/google-research/google-research/tree/master/scann)
+
+### Just Skin
+
+- [terry3041/pyChatGPT: An unofficial Python wrapper for OpenAI's ChatGPT API](https://github.com/terry3041/pyChatGPT)
+- [acheong08/EdgeGPT: Reverse engineered API of Microsoft's Bing Chat AI](https://github.com/acheong08/EdgeGPT)
+- [acheong08/ChatGPT: Reverse engineered ChatGPT API](https://github.com/acheong08/ChatGPT)
+- [transitive-bullshit/chatgpt-api: Node.js client for the official ChatGPT API. 🔥](https://github.com/transitive-bullshit/chatgpt-api)
+- [terry3041/pyChatGPT: An unofficial Python wrapper for OpenAI's ChatGPT API](https://github.com/terry3041/pyChatGPT)
+- [Sha1rholder/use-ChatGPT-in-GFW: 在中国境内使用 OpenAI 服务的方法](https://github.com/Sha1rholder/use-ChatGPT-in-GFW#%E4%BD%BF%E7%94%A8-openai-api)
+
+### Inference
+
+- [Frameworks for Serving LLMs. A comprehensive guide into LLMs inference and serving](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407)
+- [ggerganov/llama.cpp: Port of Facebook's LLaMA model in C/C++](https://github.com/ggerganov/llama.cpp)
+- [huggingface/text-generation-inference: Large Language Model Text Generation Inference](https://github.com/huggingface/text-generation-inference)
+- [onnxruntime/onnxruntime/python/tools/transformers/notebooks/Inference_GPT2_with_OnnxRuntime_on_CPU](https://github.com/microsoft/onnxruntime/blob/main/onnxruntime/python/tools/transformers/notebooks/Inference_GPT2_with_OnnxRuntime_on_CPU.ipynb)
+- [FasterTransformer/docs/gpt_guide.md at main · NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer/blob/main/docs/gpt_guide.md)
+- [OpenNMT/CTranslate2: Fast inference engine for Transformer models](https://github.com/OpenNMT/CTranslate2)
+- [mlc-ai/mlc-llm: Enable everyone to develop, optimize and deploy AI models natively on everyone's devices.](https://github.com/mlc-ai/mlc-llm)
+- [vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs](https://github.com/vllm-project/vllm)
+- [sonos/tract: Tiny, no-nonsense, self-contained, Tensorflow and ONNX inference](https://github.com/sonos/tract)
+- [rustformers/llm: An ecosystem of Rust libraries for working with large language models](https://github.com/rustformers/llm)
+- [bentoml/OpenLLM: Operating LLMs in production](https://github.com/bentoml/OpenLLM)
+- [huggingface/safetensors: Simple, safe way to store and distribute tensors](https://github.com/huggingface/safetensors)
+- [huggingface/candle: Minimalist ML framework for Rust](https://github.com/huggingface/candle)
+- [tairov/llama2.mojo: Inference Llama 2 in one file of pure 🔥](https://github.com/tairov/llama2.mojo)
+
+### Prompts
+
+- [f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts)
+- [dair-ai/Prompt-Engineering-Guide: 🐙 Guides, papers, lecture, notebooks and resources for prompt engineering](https://github.com/dair-ai/Prompt-Engineering-Guide)
+
 ## AI
 
 ### Deploy
@@ -497,6 +574,16 @@ AIX|	`LIBPATH`
 - [mvitez/thnets: Basic library that can run networks created with Torch](https://github.com/mvitez/thnets)
 - [Serving Trained Model (aka Model API) - FloydHub Documentation](https://docs.floydhub.com/guides/serving/)
 - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
+- [hyperonym/basaran: Basaran is an open-source alternative to the OpenAI text completion API. It provides a compatible streaming API for your Hugging Face Transformers-based text generation models.](https://github.com/hyperonym/basaran)
+
+### Demo/WebAPP
+
+- [holoviz/panel: Panel: The powerful data exploration & web app framework for Python](https://github.com/holoviz/panel)
+- [rawpython/remi: Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.](https://github.com/rawpython/remi)
+- [PySimpleGUI](https://www.pysimplegui.org/en/latest/)
+- [pywebio/PyWebIO: Write interactive web app in script way.](https://github.com/pywebio/PyWebIO)
+- [streamlit/streamlit: Streamlit — A faster way to build and share data apps.](https://github.com/streamlit/streamlit)
+- [gradio-app/gradio: Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!](https://github.com/gradio-app/gradio)
 
 ### Toolkit
 
@@ -750,6 +837,7 @@ AIX|	`LIBPATH`
 ### Network
 
 - [High Performance Browser Networking (豆瓣)](https://book.douban.com/subject/21866396/?dt_platform=com.douban.activity.wechat_friends&dt_dapp=1)
+
 
 ## Tool
 
