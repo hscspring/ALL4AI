@@ -27,7 +27,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-> 关注AI领域值得关注的研究进展。
+> 关注AI领域值得关注的研究进展，包括视频、LLM及相关应用，以及其他AI相关。
 
 ## Video
 
