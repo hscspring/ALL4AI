@@ -29,6 +29,37 @@
 
 > 关注AI领域值得关注的研究进展，包括视频、LLM及相关应用，以及其他AI相关。
 
+## Agent
+
+### Application
+
+- [awesome-deepseek-integration/README_cn.md at main · deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md)
+- [camel-ai/camel: 🐫 CAMEL: Finding the Scaling Law of Agents. The first and the best multi-agent framework. https://www.camel-ai.org](https://github.com/camel-ai/camel)
+- [mannaandpoem/OpenManus: No fortress, purely open ground. OpenManus is Coming.](https://github.com/mannaandpoem/OpenManus)
+- [browser-use/browser-use: Make websites accessible for AI agents](https://github.com/browser-use/browser-use)
+- [OpenInterpreter/open-interpreter: A natural language interface for computers](https://github.com/OpenInterpreter/open-interpreter)
+- [OpenInterpreter/01: The #1 open-source voice interface for desktop, mobile, and ESP32 chips.](https://github.com/OpenInterpreter/01)
+- [yuruotong1/autoMate: like manus and omniparser.AI-driven local automation assistant that uses natural language to make computers work by themselves](https://github.com/yuruotong1/autoMate/tree/master)
+
+### Framework
+
+重点关注MicroSoft。
+
+- [geekan/MetaGPT: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming](https://github.com/geekan/MetaGPT)
+- [microsoft/autogen: Enable Next-Gen Large Language Model Applications. Join our Discord: https://discord.gg/pAbnFJrkgZ](https://github.com/microsoft/autogen)
+- [langchain-ai/langgraph: Build resilient language agents as graphs.](https://github.com/langchain-ai/langgraph)
+- [crewAIInc/crewAI: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.](https://github.com/crewAIInc/crewAI)
+- [Significant-Gravitas/AutoGPT: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.](https://github.com/Significant-Gravitas/AutoGPT)
+- [LLaVA-VL/LLaVA-Interactive-Demo: LLaVA-Interactive-Demo](https://github.com/LLaVA-VL/LLaVA-Interactive-Demo/tree/main)
+- [yxuansu/PandaGPT: [TLLM'23] PandaGPT: One Model To Instruction-Follow Them All](https://github.com/yxuansu/PandaGPT/tree/main)
+- [microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps](https://github.com/microsoft/semantic-kernel/tree/main)
+- [visual-openllm/visual-openllm: something like visual-chatgpt, 文心一言的开源版](https://github.com/visual-openllm/visual-openllm)
+
+### KnowldgeBase
+
+- [1Panel-dev/MaxKB: 💬 Ready-to-use & flexible RAG Chatbot, supporting mainstream large language models (LLMs) such as DeepSeek-R1, Llama 3.3, Qwen2, OpenAI and more.](https://github.com/1Panel-dev/MaxKB)
+- [outline/outline: The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.](https://github.com/outline/outline)
+
 ## Video
 
 - `OpenSource` [THUDM/CogVideo: text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)](https://github.com/THUDM/CogVideo)
@@ -62,16 +93,6 @@
 ### Sheet
 
 - [gventuri/pandas-ai: PandasAI is the Python library that integrates Gen AI into pandas, making data analysis conversational](https://github.com/gventuri/pandas-ai)
-
-### Agent
-
-重点关注MicroSoft。
-
-- [LLaVA-VL/LLaVA-Interactive-Demo: LLaVA-Interactive-Demo](https://github.com/LLaVA-VL/LLaVA-Interactive-Demo/tree/main)
-- [yxuansu/PandaGPT: [TLLM'23] PandaGPT: One Model To Instruction-Follow Them All](https://github.com/yxuansu/PandaGPT/tree/main)
-- [microsoft/autogen: Enable Next-Gen Large Language Model Applications. Join our Discord: https://discord.gg/pAbnFJrkgZ](https://github.com/microsoft/autogen)
-- [microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps](https://github.com/microsoft/semantic-kernel/tree/main)
-- [visual-openllm/visual-openllm: something like visual-chatgpt, 文心一言的开源版](https://github.com/visual-openllm/visual-openllm)
 
 ### VectorSearch
 
