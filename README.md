@@ -31,12 +31,21 @@
 
 ## Video
 
-- [CogVideo - a THUDM Collection](https://huggingface.co/collections/THUDM/cogvideo-66c08e62f1685a3ade464cce)
-- [genmo/mochi-1-preview · Hugging Face](https://huggingface.co/genmo/mochi-1-preview)
-- [rain1011/pyramid-flow-miniflux · Hugging Face](https://huggingface.co/rain1011/pyramid-flow-miniflux)
-- [Lightricks/LTX-Video · Hugging Face](https://huggingface.co/Lightricks/LTX-Video)
-- [rhymes-ai/Allegro: Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input.](https://github.com/rhymes-ai/Allegro)
-- [PKU-YuanGroup/Open-Sora-Plan: This project aim to reproduce Sora (Open AI T2V model), we wish the open source community contribute to this project.](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+- `OpenSource` [THUDM/CogVideo: text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)](https://github.com/THUDM/CogVideo)
+- `OpenSource` [genmo/mochi-1-preview · Hugging Face](https://huggingface.co/genmo/mochi-1-preview)
+- `OpenSource` [rain1011/pyramid-flow-miniflux · Hugging Face](https://huggingface.co/rain1011/pyramid-flow-miniflux)
+- `OpenSource` [Lightricks/LTX-Video · Hugging Face](https://huggingface.co/Lightricks/LTX-Video)
+- `OpenSource` [rhymes-ai/Allegro: Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input.](https://github.com/rhymes-ai/Allegro)
+- `OpenSource` [PKU-YuanGroup/Open-Sora-Plan: This project aim to reproduce Sora (Open AI T2V model), we wish the open source community contribute to this project.](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+- `OpenModel, TrainOnRoad` [TMElyralab/MuseV: MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising](https://github.com/TMElyralab/MuseV)
+- `OpenModel` [stepfun-ai/Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V/tree/main)
+- `OpenModel` [tencent/HunyuanVideo-I2V · Hugging Face](https://huggingface.co/tencent/HunyuanVideo-I2V)
+- `OpenModel` [Wan-Video/Wan2.1: Wan: Open and Advanced Large-Scale Video Generative Models](https://github.com/Wan-Video/Wan2.1)
+
+## Image
+
+- `OpenModel` [CohereForAI/aya-vision-8b · Hugging Face](https://huggingface.co/CohereForAI/aya-vision-8b)
+- `OpenModel, TrainOnRoad` [THUDM/CogView4-6B · Hugging Face](https://huggingface.co/THUDM/CogView4-6B)
 
 ## LLM
 
@@ -104,6 +113,10 @@
 
 - [f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts)
 - [dair-ai/Prompt-Engineering-Guide: 🐙 Guides, papers, lecture, notebooks and resources for prompt engineering](https://github.com/dair-ai/Prompt-Engineering-Guide)
+
+### Parser
+
+- [opendatalab/MinerU: A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。](https://github.com/opendatalab/MinerU)
 
 ## AI
 
@@ -185,6 +198,7 @@
 - [nlplab/brat: textual annotation](https://github.com/nlplab/brat)
 - [doccano/doccano: Open source annotation tool for machine learning practitioners.](https://github.com/doccano/doccano)
 - [Overview - CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
+- [HumanSignal/awesome-data-labeling: A curated list of awesome data labeling tools](https://github.com/HumanSignal/awesome-data-labeling)
 
 ### DeepLearning
 
