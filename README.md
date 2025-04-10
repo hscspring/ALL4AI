@@ -79,6 +79,11 @@
 - `OpenModel` [CohereForAI/aya-vision-8b · Hugging Face](https://huggingface.co/CohereForAI/aya-vision-8b)
 - `OpenModel, TrainOnRoad` [THUDM/CogView4-6B · Hugging Face](https://huggingface.co/THUDM/CogView4-6B)
 
+### OCR
+
+- [Alpha-Innovator/OmniCaptioner](https://github.com/Alpha-Innovator/OmniCaptioner)
+- [microsoft/OmniParser: A simple screen parsing tool towards pure vision based GUI agent](https://github.com/microsoft/OmniParser)
+
 ## LLM
 
 ### CTG
