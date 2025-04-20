@@ -83,6 +83,7 @@
 
 - [Alpha-Innovator/OmniCaptioner](https://github.com/Alpha-Innovator/OmniCaptioner)
 - [microsoft/OmniParser: A simple screen parsing tool towards pure vision based GUI agent](https://github.com/microsoft/OmniParser)
+- [olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models](https://arxiv.org/abs/2502.18443)
 
 ## LLM
 
